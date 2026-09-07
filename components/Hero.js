@@ -16,7 +16,7 @@ export default function Hero() {
               </h2>
 
               <p className="mt-2 text-lg font-bold uppercase tracking-[8px] text-[#e39a08] md:text-xl">
-                YOUR ENGLISH FLIGHT
+                ONLINE CLASSES
               </p>
             </div>
 

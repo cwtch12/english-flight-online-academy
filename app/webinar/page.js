@@ -25,22 +25,14 @@ export default function WebinarPage() {
 
         <div className="mt-8 border-t border-sky-100 pt-6">
           <h2 className="text-xl font-bold text-[#102f4b]">📩 If you want to participate:</h2>
-          <div className="mt-5 grid gap-4 sm:grid-cols-2">
+          <div className="mt-5">
             <a
               href="https://wa.me/917588484882?text=Name%20-%20Join%20Webinar"
               target="_blank"
               rel="noopener noreferrer"
-              className="rounded-2xl bg-[#0f5b8d] px-5 py-4 font-semibold text-white transition hover:bg-[#0b466d]"
+              className="inline-flex rounded-xl bg-[#0f5b8d] px-8 py-3 font-semibold text-white transition hover:bg-[#0b466d]"
             >
               Enroll
-            </a>
-            <a
-              href="/webinar"
-              className="rounded-2xl border border-[#0f5b8d] bg-white px-5 py-4 font-semibold text-[#0f5b8d] transition hover:bg-sky-50"
-            >
-              <span className="block">Option 2 — Online 🌐</span>
-              <span className="mt-1 block text-sm font-normal text-slate-600">Visit: www.englishflight.online</span>
-              <span className="mt-1 block text-sm font-normal text-slate-600">Click on the Webinar section.</span>
             </a>
           </div>
         </div>
