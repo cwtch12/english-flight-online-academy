@@ -29,7 +29,7 @@ export default function OffersPage() {
           </h2>
 
           <p className="text-center text-lg text-gray-300 mb-10">
-            Board before <span className="text-amber-300 font-semibold">13th September 2026</span> to enjoy these special monthly course prices.
+            Board before <span className="text-amber-300 font-semibold">20th September 2026</span> to enjoy these special monthly course prices.
           </p>
 
           <div className="grid md:grid-cols-2 gap-8">
@@ -81,7 +81,7 @@ export default function OffersPage() {
             </h3>
 
             <p className="text-lg text-gray-200">
-              📅 For students enrolling before 13th September 2026
+              📅 For students enrolling before 20th September 2026
             </p>
 
             <p className="mt-3 text-gray-300">
@@ -142,7 +142,7 @@ export default function OffersPage() {
           </h2>
 
           <p className="text-lg text-gray-300 mb-8">
-            Priority boarding prices are available for learners enrolling before 13th September 2026.
+            Priority boarding prices are available for learners enrolling before 20th September 2026.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
