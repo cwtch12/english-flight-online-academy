@@ -11,6 +11,15 @@ export default function WebinarPage() {
             Next Webinar
             <span className="mt-3 block">Coming Soon</span>
           </h1>
+
+          <a
+            href="https://wa.me/917588484882?text=Hello,%20I%20am%20interested%20in%20participating%20in%20the%20next%20free%20webinar."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-6 inline-flex rounded-full bg-[#0f5b8d] px-7 py-3 font-semibold text-white transition hover:bg-[#0b466d]"
+          >
+            Interested in the next Free Webinar - Click here
+          </a>
         </div>
       </section>
     </main>
