@@ -50,7 +50,7 @@ export default function Home() {
             rel="noopener noreferrer"
             className="mt-6 inline-flex rounded-full bg-[#0f5b8d] px-7 py-3 font-semibold text-white transition hover:bg-[#0b466d]"
           >
-            Interested to participate in the next one
+            Interested in the next Free Webinar - Click here
           </a>
         </div>
       </section>
