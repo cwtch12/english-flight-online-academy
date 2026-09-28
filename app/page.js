@@ -24,9 +24,8 @@ export default function Home() {
 
   return (
     <>
-      <div className="overflow-hidden bg-slate-950 py-3 text-white">
-        <div className="flex min-w-max animate-[marquee_28s_linear_infinite] gap-10 whitespace-nowrap px-4 text-sm font-bold uppercase tracking-[0.2em]">
-          <span>We have started US Accent Training</span>
+      <div className="marquee-banner">
+        <div className="marquee-track" aria-label="US Accent Training announcement">
           <span>We have started US Accent Training</span>
           <span>We have started US Accent Training</span>
         </div>
