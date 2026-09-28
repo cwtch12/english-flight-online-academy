@@ -121,7 +121,7 @@ body {
   font-weight: 700;
   font-style: italic;
   color: #274702;
-  animation: marquee 15s linear infinite;
+  animation: navbar-marquee 15s linear infinite;
 }
 
 .marquee:hover span {
@@ -142,7 +142,7 @@ body {
   display: inline-block;
   min-width: max-content;
   white-space: nowrap;
-  animation: marquee 7s linear infinite;
+  animation: home-marquee 7s linear infinite;
   font-size: 0.8rem;
   font-weight: 800;
   letter-spacing: 0.18em;
@@ -167,7 +167,17 @@ body {
   z-index: -1;
 }
 
-@keyframes marquee {
+@keyframes navbar-marquee {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes home-marquee {
   0% {
     transform: translateX(-100%);
   }
