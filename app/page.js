@@ -27,7 +27,6 @@ export default function Home() {
       <div className="marquee-banner">
         <div className="marquee-track" aria-label="US Accent Training announcement">
           <span>We have started US Accent Training</span>
-          <span>We have started US Accent Training</span>
         </div>
       </div>
 
