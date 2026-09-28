@@ -133,7 +133,7 @@ body {
   white-space: nowrap;
   background: linear-gradient(90deg, #0f172a 0%, #111827 100%);
   color: #ffffff;
-  padding: 0.85rem 0;
+  padding: 0.9rem 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.12);
   box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.05);
 }
@@ -142,8 +142,8 @@ body {
   display: inline-block;
   min-width: max-content;
   white-space: nowrap;
-  animation: home-marquee 7s linear infinite;
-  font-size: 0.8rem;
+  animation: home-marquee 11s linear infinite;
+  font-size: 0.82rem;
   font-weight: 800;
   letter-spacing: 0.18em;
   text-transform: uppercase;
@@ -154,17 +154,11 @@ body {
 .marquee-track span {
   display: inline-block;
   position: relative;
-  padding: 0.2rem 1.2rem;
-}
-
-.marquee-track span::before {
-  content: "";
-  position: absolute;
-  inset: 0;
+  padding: 0.35rem 1.5rem;
   border-radius: 9999px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  background: rgba(255, 255, 255, 0.04);
-  z-index: -1;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: linear-gradient(90deg, rgba(255,255,255,0.08), rgba(255,255,255,0.03));
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.06);
 }
 
 @keyframes navbar-marquee {
