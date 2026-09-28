@@ -141,10 +141,9 @@ body {
 .marquee-track {
   display: inline-flex;
   align-items: center;
-  gap: 4rem;
-  white-space: nowrap;
   min-width: max-content;
-  animation: marquee 25s linear infinite;
+  white-space: nowrap;
+  animation: marquee 12s linear infinite;
   font-size: 1rem;
   font-weight: 800;
   letter-spacing: 0.18em;
@@ -155,7 +154,7 @@ body {
 .marquee-track span {
   display: inline-block;
   position: relative;
-  padding: 0.2rem 0.8rem;
+  padding: 0.2rem 2.5rem;
 }
 
 .marquee-track span::before {
@@ -170,7 +169,7 @@ body {
 
 @keyframes marquee {
   0% {
-    transform: translateX(0%);
+    transform: translateX(0);
   }
 
   100% {
