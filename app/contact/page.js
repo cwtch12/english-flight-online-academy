@@ -121,10 +121,10 @@ export default function Contact() {
                   </h3>
 
                   <a
-                    href="mailto:speakandshine@eloquentenglishacademy.in"
+                    href="mailto:nasir.sattar.nasir@gmail.com"
                     className="text-gray-600 hover:text-black"
                   >
-                   speakandshine@eloquentenglishacademy.in
+                   nasir.sattar.nasir@gmail.com
                   </a>
 
                 </div>

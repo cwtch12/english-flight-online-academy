@@ -68,7 +68,7 @@ export default function Footer() {
                     <FaEnvelope className="text-xl" />
                     <span className="text-sm uppercase tracking-[0.18em] text-sky-100">Email</span>
                   </div>
-                  <p className="mt-3 text-lg font-semibold text-white">speakandshine@eloquentenglishacademy.in</p>
+                  <p className="mt-3 text-lg font-semibold text-white">nasir.sattar.nasir@gmail.com</p>
                 </div>
               </div>
             </div>
