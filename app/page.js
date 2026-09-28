@@ -24,10 +24,12 @@ export default function Home() {
 
   return (
     <>
-      <div className="bg-slate-950 py-4 px-4 text-center">
-        <p className="inline-block rounded-full border border-red-500 bg-gradient-to-r from-yellow-300 via-pink-400 via-orange-400 to-cyan-400 bg-[length:200%_200%] px-6 py-2 text-sm font-black uppercase tracking-[0.2em] text-slate-900 shadow-lg animate-pulse [animation-duration:0.4s] [animation-iteration-count:infinite]">
-          We have started US Accent Training
-        </p>
+      <div className="overflow-hidden bg-slate-950 py-3 text-white">
+        <div className="flex min-w-max animate-[marquee_16s_linear_infinite] gap-10 whitespace-nowrap px-4 text-sm font-bold uppercase tracking-[0.2em]">
+          <span>We have started US Accent Training</span>
+          <span>We have started US Accent Training</span>
+          <span>We have started US Accent Training</span>
+        </div>
       </div>
 
       <Hero />
