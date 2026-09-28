@@ -131,9 +131,11 @@ body {
 .marquee-banner {
   overflow: hidden;
   white-space: nowrap;
-  background: #0f172a;
+  background: linear-gradient(90deg, #0f172a 0%, #111827 100%);
   color: #ffffff;
-  padding: 0.75rem 0;
+  padding: 0.85rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.05);
 }
 
 .marquee-track {
@@ -143,14 +145,27 @@ body {
   white-space: nowrap;
   min-width: max-content;
   animation: marquee 25s linear infinite;
-  font-size: 0.875rem;
-  font-weight: 700;
-  letter-spacing: 0.2em;
+  font-size: 1rem;
+  font-weight: 800;
+  letter-spacing: 0.18em;
   text-transform: uppercase;
+  text-shadow: 0 0 18px rgba(255, 255, 255, 0.18);
 }
 
 .marquee-track span {
   display: inline-block;
+  position: relative;
+  padding: 0.2rem 0.8rem;
+}
+
+.marquee-track span::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 9999px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: rgba(255, 255, 255, 0.04);
+  z-index: -1;
 }
 
 @keyframes marquee {
