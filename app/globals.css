@@ -149,6 +149,7 @@ body {
   letter-spacing: 0.18em;
   text-transform: uppercase;
   text-shadow: 0 0 18px rgba(255, 255, 255, 0.18);
+  will-change: transform;
 }
 
 .marquee-track span {
@@ -169,7 +170,7 @@ body {
 
 @keyframes marquee {
   0% {
-    transform: translateX(0);
+    transform: translateX(100%);
   }
 
   100% {
