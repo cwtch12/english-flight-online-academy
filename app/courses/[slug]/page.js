@@ -48,6 +48,15 @@ const courseDetails = {
       "Personal confidence building",
     ],
   },
+  "us-accent-training": {
+    title: "US Accent Training",
+    description: "Master clear American pronunciation, intonation and rhythm for natural-sounding speech.",
+    features: [
+      "American vowel and consonant practice",
+      "Natural rhythm and stress patterns",
+      "Pronunciation coaching for confident speaking",
+    ],
+  },
   "public-speaking": {
     title: "Public Speaking",
     description: "Overcome stage fear and deliver powerful speeches with confidence.",

@@ -7,6 +7,7 @@ import {
   FaMicrophone,
   FaUserTie,
   FaUsers,
+  FaAward,
 } from "react-icons/fa";
 
 export default function Courses() {
@@ -40,6 +41,13 @@ export default function Courses() {
       slug: "communication-skills",
       icon: <FaComments className="text-5xl text-teal-700" />,
       desc: "Build strong verbal and interpersonal communication skills.",
+    },
+    {
+      title: "US Accent Training",
+      slug: "us-accent-training",
+      icon: <FaMicrophone className="text-5xl text-amber-500" />,
+      desc: "Master clear American pronunciation, intonation and rhythm for natural-sounding speech.",
+      featured: true,
     },
     {
       title: "Public Speaking",
@@ -88,13 +96,23 @@ export default function Courses() {
           {courses.map((course, index) => (
             <div
               key={index}
-              className="rounded-2xl border border-teal-100 bg-white p-8 text-center shadow-md"
+              className={`relative rounded-2xl border p-8 text-center shadow-md transition-transform duration-200 hover:-translate-y-1 ${
+                course.featured
+                  ? "border-amber-400 bg-gradient-to-b from-amber-50 to-white shadow-amber-200/60 ring-2 ring-amber-200"
+                  : "border-teal-100 bg-white"
+              }`}
             >
+              {course.featured && (
+                <span className="absolute -top-3 left-1/2 -translate-x-1/2 inline-flex items-center gap-2 rounded-full bg-amber-500 px-3 py-1 text-xs font-bold uppercase tracking-wide text-white shadow-md">
+                  <FaAward className="text-[10px]" /> Featured
+                </span>
+              )}
+
               <div className="flex justify-center mb-5">
                 {course.icon}
               </div>
 
-              <h2 className="text-xl font-bold text-slate-900">
+              <h2 className={`text-xl font-bold ${course.featured ? "text-amber-700" : "text-slate-900"}`}>
                 {course.title}
               </h2>
 
