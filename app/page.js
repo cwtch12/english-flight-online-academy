@@ -7,7 +7,7 @@ import WhoCanJoin from "../components/WhoCanJoin";
 
 const rotatingHighlights = [
   "Free English webinars every month",
-  "Priority Boarding offer till 30 Sept 2026",
+  "Priority Boarding offer till 31st October 2026",
   "Live interactive classes with expert trainers",
 ];
 
