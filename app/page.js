@@ -7,7 +7,7 @@ import WhyChooseUs from "../components/WhyChooseUs";
 import WhoCanJoin from "../components/WhoCanJoin";
 
 const rotatingHighlights = [
-  "Free English webinars every month",
+  "Next webinar coming soon",
   "Priority Boarding offer till 31st October 2026",
   "Live interactive classes with expert trainers",
 ];
@@ -70,10 +70,6 @@ export default function Home() {
               {rotatingHighlights[activeIndex]}
             </p>
           </div>
-
-          <p className="mt-5 text-xl font-semibold leading-8 text-[#102f4b] sm:text-2xl">
-            We conduct multiple Free Online Webinars every month.
-          </p>
 
           <a
             href="https://wa.me/917588484882?text=Hello,%20I%20am%20interested%20in%20participating%20in%20the%20next%20free%20webinar."
