@@ -1,28 +1,11 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useState } from "react";
 import Hero from "../components/Hero";
 import WhyChooseUs from "../components/WhyChooseUs";
 import WhoCanJoin from "../components/WhoCanJoin";
 
-const rotatingHighlights = [
-  "Next webinar coming soon",
-  "Priority Boarding offer till 31st October 2026",
-  "Live interactive classes with expert trainers",
-];
-
 export default function Home() {
-  const [activeIndex, setActiveIndex] = useState(0);
-
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setActiveIndex((current) => (current + 1) % rotatingHighlights.length);
-    }, 2200);
-
-    return () => clearInterval(timer);
-  }, []);
-
   return (
     <>
       <div className="marquee-banner">
@@ -63,11 +46,8 @@ export default function Home() {
           </div>
 
           <div className="mt-5 flex min-h-[72px] items-center justify-center">
-            <p
-              key={activeIndex}
-              className="animate-fade-slide text-xl font-semibold leading-8 text-[#102f4b] sm:text-2xl"
-            >
-              {rotatingHighlights[activeIndex]}
+            <p className="text-xl font-semibold leading-8 text-[#102f4b] sm:text-2xl">
+              Next webinar coming soon
             </p>
           </div>
 
