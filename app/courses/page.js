@@ -8,6 +8,7 @@ import {
   FaUserTie,
   FaUsers,
   FaAward,
+  FaGraduationCap,
 } from "react-icons/fa";
 
 export default function Courses() {
@@ -67,6 +68,11 @@ export default function Courses() {
       icon: <FaUsers className="text-5xl text-teal-700" />,
       desc: "Develop confidence, personality and workplace etiquette.",
     },
+    {
+      title: "All-Subjects School Tuition",
+      icon: <FaGraduationCap className="text-5xl text-teal-700" />,
+      desc: "Online tuition in all school subjects for students from Standard 1 through Standard 8.",
+    },
   ];
 
   return (
@@ -82,8 +88,8 @@ export default function Courses() {
         <div className="w-24 h-1 bg-teal-300 mx-auto mt-5 rounded-full"></div>
 
         <p className="mt-6 text-lg text-white max-w-3xl mx-auto px-6">
-          Choose a live online route designed to improve your English,
-          communication skills and confidence.
+          Choose live online classes for English, communication skills, and
+          all-subject school tuition for Standards 1 to 8.
         </p>
 
       </section>

@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useEffect, useState } from "react";
 import Hero from "../components/Hero";
 import WhyChooseUs from "../components/WhyChooseUs";
@@ -31,6 +32,26 @@ export default function Home() {
       </div>
 
       <Hero />
+      <section className="bg-[#f5fbff] px-6 py-12 text-center">
+        <div className="mx-auto max-w-4xl">
+          <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#0f5b8d]">
+            School Tuition
+          </p>
+          <h2 className="mt-3 text-3xl font-bold text-[#102f4b] sm:text-4xl">
+            All Subjects for Standards 1 to 8
+          </h2>
+          <p className="mx-auto mt-4 max-w-2xl text-lg leading-8 text-slate-600">
+            In addition to English classes, we teach all school subjects for
+            students from Standard 1 through Standard 8.
+          </p>
+          <Link
+            href="/courses"
+            className="mt-6 inline-flex rounded-full bg-[#0f5b8d] px-7 py-3 font-semibold text-white transition hover:bg-[#0b466d]"
+          >
+            Explore Classes
+          </Link>
+        </div>
+      </section>
       <WhyChooseUs />
       <WhoCanJoin />
 

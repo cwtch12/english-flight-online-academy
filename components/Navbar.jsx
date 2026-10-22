@@ -49,9 +49,9 @@ export default function Navbar() {
               className="marquee"
             >
               <span>
-                🎓 Enroll Once • Get FREE Lectures for One Year After Course
+                🎓 Enroll Once • Get FREE Lectures for 4 Months After Course
                 Completion &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                🎓 Enroll Once • Get FREE Lectures for One Year After Course
+                🎓 Enroll Once • Get FREE Lectures for 4 Months After Course
                 Completion
               </span>
             </a>
@@ -133,9 +133,9 @@ export default function Navbar() {
             className="marquee"
           >
             <span>
-              🎓 Enroll Once • Get FREE Lectures for One Year After Course
+              🎓 Enroll Once • Get FREE Lectures for 4 Months After Course
               Completion &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              🎓 Enroll Once • Get FREE Lectures for One Year After Course
+              🎓 Enroll Once • Get FREE Lectures for 4 Months After Course
               Completion
             </span>
           </a>
