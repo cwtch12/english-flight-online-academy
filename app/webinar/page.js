@@ -1,15 +1,16 @@
 export default function WebinarPage() {
   return (
-    <main className="min-h-[60vh] bg-[#eef7ff] px-6 py-12 text-[#12314f] sm:py-16">
-      <article className="mx-auto max-w-3xl overflow-hidden rounded-2xl border border-sky-200 bg-white shadow-[0_16px_48px_rgba(15,91,141,0.12)]">
-        <header className="bg-[#0b5ea8] px-6 py-8 text-center text-white sm:px-10">
-          <p className="text-sm font-bold uppercase tracking-[0.18em] text-sky-100 sm:text-base">
+    <main className="min-h-[60vh] bg-gradient-to-b from-[#eaf4fb] to-[#fff9e9] px-6 py-12 text-[#12314f] sm:py-16">
+      <article className="mx-auto max-w-3xl overflow-hidden rounded-2xl border border-[#d9e5f2] bg-white shadow-[0_20px_55px_rgba(7,26,51,0.16)]">
+        <header className="bg-gradient-to-br from-[#071a33] via-[#0f3557] to-[#164f73] px-6 py-8 text-center text-white sm:px-10 sm:py-10">
+          <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#f6c343] sm:text-base">
             Free Online Webinar
           </p>
           <h1 className="mt-3 text-3xl font-black leading-tight sm:text-5xl">
             Think Fast, Speak Smart!
           </h1>
-          <p className="mt-3 text-lg font-semibold text-sky-100 sm:text-xl">
+          <div className="mx-auto mt-4 h-1 w-16 rounded-full bg-[#f6c343]" />
+          <p className="mt-4 text-lg font-semibold text-sky-100 sm:text-xl">
             Respond spontaneously in English—without translating every sentence.
           </p>
         </header>
@@ -21,21 +22,21 @@ export default function WebinarPage() {
               speak English with greater confidence.
             </p>
 
-            <div className="mt-7 grid gap-4 rounded-xl border border-sky-100 bg-[#f5fbff] p-5 text-center sm:grid-cols-3 sm:p-6">
+            <div className="mt-7 grid gap-4 rounded-xl border border-[#f3dfaa] bg-[#fffaf0] p-5 text-center sm:grid-cols-3 sm:p-6">
               <p className="text-slate-700">
-                <span className="block text-sm font-bold uppercase tracking-wide text-[#0b5ea8]">
+                <span className="block text-sm font-bold uppercase tracking-wide text-[#a66b00]">
                   Date
                 </span>
                 <strong className="mt-1 block">Sunday, 25 October 2026</strong>
               </p>
               <p className="text-slate-700">
-                <span className="block text-sm font-bold uppercase tracking-wide text-[#0b5ea8]">
+                <span className="block text-sm font-bold uppercase tracking-wide text-[#a66b00]">
                   Time
                 </span>
                 <strong className="mt-1 block">2:00 PM – 2:30 PM</strong>
               </p>
               <p className="text-slate-700">
-                <span className="block text-sm font-bold uppercase tracking-wide text-[#0b5ea8]">
+                <span className="block text-sm font-bold uppercase tracking-wide text-[#a66b00]">
                   Trainer
                 </span>
                 <strong className="mt-1 block">Nasir</strong>
@@ -64,7 +65,7 @@ export default function WebinarPage() {
             </a>
           </section>
 
-          <footer className="text-center text-sm font-bold text-[#0b5ea8]">
+          <footer className="text-center text-sm font-bold text-[#0f5b8d]">
             English Flight (Online Academy)
           </footer>
         </div>
