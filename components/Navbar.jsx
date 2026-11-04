@@ -115,7 +115,7 @@ export default function Navbar() {
 
             <Link href="/privacy-policy" className={linkClass("/privacy-policy")}>
               <span className="inline-block pb-1">
-                Privacy Policy
+                Policy
                 {pathname === "/privacy-policy" && (
                   <span className="mt-1 block h-0.5 rounded-full bg-blue-600"></span>
                 )}
@@ -206,7 +206,7 @@ export default function Navbar() {
               className={`${linkClass("/privacy-policy")} rounded-md px-2 py-2 hover:bg-gray-50`}
               onClick={() => setMenuOpen(false)}
             >
-              Privacy Policy
+              Policy
             </Link>
           </div>
         )}

@@ -80,7 +80,7 @@ export default function Footer() {
               href="/privacy-policy"
               className="transition-colors hover:text-white focus-visible:text-white"
             >
-              Privacy Policy
+              Policy
             </a>
           </div>
         </div>

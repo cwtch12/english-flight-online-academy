@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 export const metadata = {
   title: "Privacy Policy | English Flight (Online Academy)",
   description:
@@ -54,7 +52,7 @@ export default function PrivacyPolicy() {
           English Flight (Online Academy)
         </p>
         <h1 className="mt-4 text-4xl font-extrabold text-white sm:text-5xl">
-          Privacy Policy
+          Policy
         </h1>
         <p className="mx-auto mt-5 max-w-2xl leading-7 text-sky-100/85">
           Your privacy matters to us. This page explains how we handle
@@ -81,25 +79,6 @@ export default function PrivacyPolicy() {
             </section>
           ))}
 
-          <section className="rounded-2xl bg-[#102f4b] p-6 text-white sm:p-8">
-            <h2 className="text-xl font-bold">Contact us</h2>
-            <p className="mt-3 leading-7 text-sky-100">
-              For privacy-related questions, reach us at{" "}
-              <a
-                href="mailto:nasir.sattar.nasir@gmail.com"
-                className="font-semibold underline underline-offset-4 hover:text-[#f6c343]"
-              >
-                nasir.sattar.nasir@gmail.com
-              </a>{" "}
-              or call +91 97020 30454.
-            </p>
-            <Link
-              href="/contact"
-              className="mt-5 inline-flex rounded-full bg-[#f6c343] px-5 py-2.5 font-semibold text-[#102f4b] transition hover:bg-amber-300"
-            >
-              Contact the Flight Desk
-            </Link>
-          </section>
         </div>
       </section>
     </main>
