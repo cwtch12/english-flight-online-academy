@@ -58,7 +58,7 @@ export default function Navbar() {
           </div>
 
           {/* Desktop Menu */}
-          <div className="hidden lg:flex items-center gap-8 text-base">
+          <div className="hidden items-center gap-4 text-sm lg:flex xl:gap-5 xl:text-base">
             <Link href="/" className={linkClass("/")}>
               <span className="inline-block pb-1">
                 Home
@@ -108,6 +108,15 @@ export default function Navbar() {
               <span className="inline-block pb-1">
                 Contact
                 {pathname === "/contact" && (
+                  <span className="mt-1 block h-0.5 rounded-full bg-blue-600"></span>
+                )}
+              </span>
+            </Link>
+
+            <Link href="/privacy-policy" className={linkClass("/privacy-policy")}>
+              <span className="inline-block pb-1">
+                Privacy Policy
+                {pathname === "/privacy-policy" && (
                   <span className="mt-1 block h-0.5 rounded-full bg-blue-600"></span>
                 )}
               </span>
@@ -190,6 +199,14 @@ export default function Navbar() {
               onClick={() => setMenuOpen(false)}
             >
               Contact
+            </Link>
+
+            <Link
+              href="/privacy-policy"
+              className={`${linkClass("/privacy-policy")} rounded-md px-2 py-2 hover:bg-gray-50`}
+              onClick={() => setMenuOpen(false)}
+            >
+              Privacy Policy
             </Link>
           </div>
         )}
