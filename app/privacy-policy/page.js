@@ -46,41 +46,23 @@ const sections = [
 
 export default function PrivacyPolicy() {
   return (
-    <main className="bg-[#f5fbff]">
-      <section className="bg-gradient-to-br from-[#071a33] via-[#0f3557] to-[#164f73] px-6 py-16 text-center sm:py-20">
-        <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#f6c343]">
-          English Flight (Online Academy)
-        </p>
-        <h1 className="mt-4 text-4xl font-extrabold text-white sm:text-5xl">
-          Policy
-        </h1>
-        <p className="mx-auto mt-5 max-w-2xl leading-7 text-sky-100/85">
-          Your privacy matters to us. This page explains how we handle
-          information you choose to share with us.
-        </p>
-        <p className="mt-4 text-sm text-sky-100/70">
-          Last updated: November 4, 2026
-        </p>
-      </section>
-
-      <section className="px-6 py-12 sm:py-16">
-        <div className="mx-auto max-w-3xl space-y-5">
-          {sections.map(({ title, paragraphs }) => (
-            <section
-              key={title}
-              className="rounded-2xl border border-sky-100 bg-white p-6 shadow-[0_12px_30px_rgba(15,91,141,0.06)] sm:p-8"
-            >
-              <h2 className="text-xl font-bold text-[#102f4b]">{title}</h2>
-              {paragraphs.map((paragraph) => (
-                <p key={paragraph} className="mt-3 leading-7 text-slate-600">
-                  {paragraph}
-                </p>
-              ))}
-            </section>
-          ))}
-
-        </div>
-      </section>
+    <main className="bg-[#f5fbff] px-6 py-12 sm:py-16">
+      <div className="mx-auto max-w-3xl space-y-5">
+        <h1 className="text-3xl font-extrabold text-[#102f4b]">Policy</h1>
+        {sections.map(({ title, paragraphs }) => (
+          <section
+            key={title}
+            className="rounded-2xl border border-sky-100 bg-white p-6 shadow-[0_12px_30px_rgba(15,91,141,0.06)] sm:p-8"
+          >
+            <h2 className="text-xl font-bold text-[#102f4b]">{title}</h2>
+            {paragraphs.map((paragraph) => (
+              <p key={paragraph} className="mt-3 leading-7 text-slate-600">
+                {paragraph}
+              </p>
+            ))}
+          </section>
+        ))}
+      </div>
     </main>
   );
 }
