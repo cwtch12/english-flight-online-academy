@@ -61,6 +61,53 @@ export default function Home() {
           </a>
         </div>
       </section>
+
+      <section className="bg-[#f5fbff] px-6 py-16">
+        <div className="mx-auto max-w-3xl">
+          <p className="text-center text-sm font-bold uppercase tracking-[0.18em] text-[#0f5b8d]">
+            Quick answers
+          </p>
+          <h2 className="mt-3 text-center text-3xl font-bold text-[#102f4b] sm:text-4xl">
+            Frequently asked questions
+          </h2>
+
+          <div className="mt-8 space-y-3">
+            {[
+              {
+                question: "Are classes held online?",
+                answer:
+                  "Yes. English Flight offers live online classes, so you can join from wherever you are.",
+              },
+              {
+                question: "Do you offer school tuition?",
+                answer:
+                  "Yes. We teach all school subjects for students from Standard 1 through Standard 8.",
+              },
+              {
+                question: "How can I ask about courses and schedules?",
+                answer:
+                  "Contact us by phone, email, or WhatsApp and we’ll help you find the right course details.",
+              },
+            ].map(({ question, answer }) => (
+              <details
+                key={question}
+                className="group rounded-2xl border border-sky-100 bg-white p-5 shadow-sm transition hover:border-sky-200 hover:shadow-md"
+              >
+                <summary className="flex cursor-pointer list-none items-center justify-between gap-4 font-semibold text-[#102f4b] marker:hidden">
+                  {question}
+                  <span
+                    aria-hidden="true"
+                    className="text-xl text-[#0f5b8d] transition-transform group-open:rotate-45"
+                  >
+                    +
+                  </span>
+                </summary>
+                <p className="mt-4 leading-7 text-slate-600">{answer}</p>
+              </details>
+            ))}
+          </div>
+        </div>
+      </section>
     </>
   );
 }

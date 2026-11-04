@@ -74,8 +74,14 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="mt-10 border-t border-white/10 pt-6 text-center text-sm text-slate-400 sm:mt-12">
-            © 2026 English Flight (Online Academy). All Rights Reserved.
+          <div className="mt-10 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-6 text-center text-sm text-slate-400 sm:mt-12 sm:flex-row sm:text-left">
+            <p>© 2026 English Flight (Online Academy). All Rights Reserved.</p>
+            <a
+              href="/privacy-policy"
+              className="transition-colors hover:text-white focus-visible:text-white"
+            >
+              Privacy Policy
+            </a>
           </div>
         </div>
       </div>
