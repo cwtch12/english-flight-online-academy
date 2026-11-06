@@ -123,6 +123,17 @@ export default function CourseDetailPage({ params }) {
             ))}
           </div>
 
+          {params.slug === "soft-skills" && (
+            <a
+              href="https://rzp.io/rzp/jtQYgmEp"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-8 inline-flex min-h-12 items-center justify-center rounded-full bg-teal-500 px-7 py-3 font-bold text-slate-950 transition hover:bg-teal-400 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-teal-300"
+            >
+              Pay for the Soft Skills Masterclass
+            </a>
+          )}
+
           <div className="mt-10 rounded-3xl bg-gradient-to-r from-teal-600 to-sky-500 p-8 text-slate-950">
             <h2 className="text-2xl font-bold mb-3">Flight Route Summary</h2>
             <p className="leading-8">
