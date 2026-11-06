@@ -4,7 +4,7 @@ export default function WebinarPage() {
       <article className="mx-auto max-w-3xl overflow-hidden rounded-2xl border border-[#d9e5f2] bg-white shadow-[0_20px_55px_rgba(7,26,51,0.16)]">
         <header className="bg-gradient-to-br from-[#071a33] via-[#0f3557] to-[#164f73] px-6 py-8 text-center text-white sm:px-10 sm:py-10">
           <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#f6c343] sm:text-base">
-            Free Online Webinar
+            Events
           </p>
           <h1 className="mt-3 text-3xl font-black leading-tight sm:text-5xl">
             Think Fast, Speak Smart!
@@ -46,7 +46,7 @@ export default function WebinarPage() {
 
             <p className="mt-5 text-center text-slate-700">
               Online via <strong>Google Meet</strong>. The meeting link will be
-              shared 2 hours before the webinar.
+              shared 2 hours before the event.
             </p>
           </section>
 

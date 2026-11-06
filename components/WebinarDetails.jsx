@@ -4,7 +4,7 @@ export default function WebinarDetails() {
       <section className="mx-auto w-full max-w-4xl rounded-3xl border border-sky-100 bg-[#f5fbff] px-6 py-12 text-center shadow-[0_12px_30px_rgba(15,91,141,0.08)] sm:px-10 sm:py-16">
         <div className="mx-auto max-w-3xl space-y-6">
           <p className="text-sm font-semibold uppercase tracking-[0.25em] text-[#0f5b8d]">
-            Free Webinar
+            Events
           </p>
 
           <h1 className="text-4xl font-black tracking-tight text-[#102f4b] sm:text-6xl">

@@ -97,7 +97,7 @@ export default function Navbar() {
 
             <Link href="/webinar" className={linkClass("/webinar")}>
               <span className="inline-block pb-1">
-                Webinar
+                Events
                 {pathname === "/webinar" && (
                   <span className="mt-1 block h-0.5 rounded-full bg-blue-600"></span>
                 )}
@@ -190,7 +190,7 @@ export default function Navbar() {
               className={`${linkClass("/webinar")} rounded-md px-2 py-2 hover:bg-gray-50`}
               onClick={() => setMenuOpen(false)}
             >
-              Webinar
+              Events
             </Link>
 
             <Link
