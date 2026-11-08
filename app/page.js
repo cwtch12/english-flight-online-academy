@@ -8,12 +8,12 @@ import WhoCanJoin from "../components/WhoCanJoin";
 export default function Home() {
   return (
     <>
-      <Hero />
       <div className="bg-slate-950 px-4 py-4 text-center">
         <p className="inline-block animate-pulse rounded-full border border-red-500 bg-gradient-to-r from-yellow-300 via-pink-400 via-orange-400 to-cyan-400 bg-[length:200%_200%] px-6 py-2 text-sm font-black uppercase tracking-[0.2em] text-slate-900 shadow-lg">
           We have started US Accent Training
         </p>
       </div>
+      <Hero />
       <section className="bg-[#f5fbff] px-6 py-12 text-center">
         <div className="mx-auto max-w-4xl">
           <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#0f5b8d]">
