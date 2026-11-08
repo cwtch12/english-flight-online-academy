@@ -9,9 +9,14 @@ export default function Home() {
   return (
     <>
       <div className="bg-slate-950 px-4 py-4 text-center">
-        <p className="inline-block animate-pulse rounded-full border border-red-500 bg-gradient-to-r from-yellow-300 via-pink-400 via-orange-400 to-cyan-400 bg-[length:200%_200%] px-6 py-2 text-sm font-black uppercase tracking-[0.2em] text-slate-900 shadow-lg">
-          We have started US Accent Training
-        </p>
+        <div className="inline-block animate-pulse rounded-2xl border border-amber-300 bg-gradient-to-r from-yellow-300 via-amber-200 to-yellow-300 px-6 py-3 text-slate-900 shadow-lg">
+          <p className="text-sm font-black uppercase tracking-[0.16em] sm:text-base">
+            14-Day Money-Back Guarantee
+          </p>
+          <p className="mt-1 text-sm font-semibold sm:text-base">
+            Enrol with confidence. Your learning journey, your peace of mind.
+          </p>
+        </div>
       </div>
       <Hero />
       <section className="bg-[#f5fbff] px-6 py-12 text-center">
