@@ -35,7 +35,7 @@ export default function Navbar() {
                 English Flight <span className="text-base font-semibold text-[#0f5b8d] lg:text-lg">(Online Academy)</span>
               </div>
               <div className="text-xs font-medium text-[#0f5b8d] lg:text-sm">
-                Your Flight to Better English Starts Here. ✈️
+                Your Flight to Better English and Beyond. ✈️
               </div>
             </div>
           </Link>
