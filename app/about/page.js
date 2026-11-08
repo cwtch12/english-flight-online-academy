@@ -45,8 +45,10 @@ export default function About() {
             <div className="w-20 h-1 bg-amber-400 mb-8 rounded-full"></div>
 
             <p className="text-black font-bold  leading-8 mb-5">
-              Hi, My name is Nasir. I am the founder of English Flight (Online Academy). We believe English should be spoken,
-              practiced and enjoyed—not just memorized.
+              Hi, my name is Nasir. I am the founder of English Flight (Online
+              Academy), a TESOL-certified English trainer, and a Certified Soft
+              Skills Life Coach. We believe English should be spoken, practiced
+              and enjoyed—not just memorized.
             </p>
 
             <p className="text-black font-bold leading-8">
@@ -71,7 +73,8 @@ export default function About() {
 
               {[
                 "100% Live Online Flight Sessions",
-                "TESOL Certified English Trainer",
+                "TESOL-Certified English Trainer",
+                "Certified Soft Skills Life Coach",
                 "Practical Speaking Practice",
                 "Personal Flight Guidance",
                 "Board from Anywhere",

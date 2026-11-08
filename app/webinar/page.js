@@ -40,7 +40,7 @@ export default function WebinarPage() {
                   Trainer
                 </span>
                 <strong className="mt-1 block">Nasir</strong>
-                TESOL Certified
+                TESOL Certified · Certified Soft Skills Life Coach
               </p>
             </div>
 

@@ -9,9 +9,9 @@ export default function WhyChooseUs() {
   const features = [
     {
       icon: <FaCertificate size={30} className="text-blue-600" />,
-      title: "TESOL Certified Trainer",
+      title: "TESOL-Certified Trainer & Life Coach",
       description:
-        "Fly with a qualified trainer who brings practical teaching experience.",
+        "Learn with a TESOL-certified English trainer and Certified Soft Skills Life Coach.",
     },
     {
       icon: <FaComments size={30} className="text-blue-600" />,

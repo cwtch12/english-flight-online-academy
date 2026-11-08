@@ -32,7 +32,7 @@ export default function WebinarDetails() {
             </p>
             <p>
               <span className="block text-sm font-semibold uppercase tracking-wide text-[#0f5b8d]">Trainer</span>
-              <strong>Nasir</strong> (TESOL Certified)
+              <strong>Nasir</strong> (TESOL Certified · Certified Soft Skills Life Coach)
             </p>
           </div>
 
