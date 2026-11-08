@@ -40,23 +40,6 @@ export default function Navbar() {
             </div>
           </Link>
 
-          {/* Desktop Scrolling Announcement */}
-          <div className="hidden lg:flex flex-1 overflow-hidden">
-            <a
-              href="https://wa.me/917588484882?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20English%20course."
-              target="_blank"
-              rel="noopener noreferrer"
-              className="marquee"
-            >
-              <span>
-                🎓 Enroll Once • Get FREE Lectures for 4 Months After Course
-                Completion &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                🎓 Enroll Once • Get FREE Lectures for 4 Months After Course
-                Completion
-              </span>
-            </a>
-          </div>
-
           {/* Desktop Menu */}
           <div className="hidden items-center gap-4 text-sm lg:flex xl:gap-5 xl:text-base">
             <Link href="/" className={linkClass("/")}>
@@ -131,23 +114,6 @@ export default function Navbar() {
           >
             {menuOpen ? <FaTimes /> : <FaBars />}
           </button>
-        </div>
-
-        {/* Mobile Scrolling Announcement */}
-        <div className="w-full overflow-hidden py-2 lg:hidden">
-          <a
-            href="https://wa.me/917588484882?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20English%20course."
-            target="_blank"
-            rel="noopener noreferrer"
-            className="marquee"
-          >
-            <span>
-              🎓 Enroll Once • Get FREE Lectures for 4 Months After Course
-              Completion &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              🎓 Enroll Once • Get FREE Lectures for 4 Months After Course
-              Completion
-            </span>
-          </a>
         </div>
 
         {/* Mobile Menu */}
