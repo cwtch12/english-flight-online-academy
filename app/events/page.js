@@ -1,3 +1,5 @@
+import EventRegistrationForm from "../../components/EventRegistrationForm";
+
 export const metadata = {
   title: "Soft Skills Masterclass | English Flight",
   description:
@@ -58,6 +60,12 @@ export default function EventsPage() {
           <p className="mx-auto mt-6 max-w-2xl text-lg font-semibold leading-8 text-sky-100">
             Invest in yourself. Develop the skills that help you grow.
           </p>
+          <a
+            href="#register-and-pay"
+            className="mt-7 inline-flex min-h-12 items-center justify-center rounded-full bg-[#f6c343] px-7 py-3 font-bold text-[#071a33] transition hover:bg-amber-300 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white"
+          >
+            Register &amp; Pay
+          </a>
         </header>
 
         <div className="space-y-10 px-6 py-8 sm:px-10 sm:py-12">
@@ -130,28 +138,9 @@ export default function EventsPage() {
             </p>
           </section>
 
-          <section className="text-center">
-            <h2 className="text-2xl font-bold text-[#102f4b] sm:text-3xl">
-              Reserve Your Spot
-            </h2>
-            <p className="mx-auto mt-3 max-w-2xl leading-7 text-slate-700">
-              Take the opportunity to invest in your personal growth. Complete
-              your ₹199 payment online to confirm your participation.
-            </p>
-            <a
-              href="https://rzp.io/rzp/3u8gWsi"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-6 inline-flex min-h-14 items-center justify-center rounded-full bg-[#138a55] px-8 py-4 text-lg font-bold text-white shadow-lg transition hover:bg-[#0f7045] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#138a55]"
-            >
-              Pay ₹199 &amp; Reserve Your Spot
-            </a>
-            <p className="mx-auto mt-5 max-w-2xl text-sm leading-6 text-slate-600">
-              After successful payment, your Webinar Joining Link will be
-              shared on your registered WhatsApp number or email address.
-              Participation is confirmed only after successful payment.
-            </p>
-          </section>
+          <div id="register-and-pay" className="scroll-mt-24">
+            <EventRegistrationForm />
+          </div>
         </div>
       </article>
     </main>
