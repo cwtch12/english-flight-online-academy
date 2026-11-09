@@ -16,33 +16,20 @@ export default function EventsPage() {
           </h1>
           <div className="mx-auto mt-5 h-1 w-16 rounded-full bg-[#f6c343]" />
           <p className="mx-auto mt-5 max-w-lg text-lg leading-8 text-slate-600">
-            Complete the form below to register for our event.
+            Click below to open the event registration form.
           </p>
         </div>
 
-        <iframe
-          title="English Flight event registration form"
-          src="https://docs.google.com/forms/d/e/1FAIpQLSdm3ligfecx3bEkG2euiOdcPq2Q20DFpYzzWHmnuopflNTyGQ/viewform?embedded=true"
-          width="100%"
-          height="1200"
-          className="mt-6 w-full border-0"
-          loading="lazy"
-        >
-          Loading…
-        </iframe>
-
-        <p className="mt-4 text-center text-sm text-slate-600">
-          Having trouble with the form?{" "}
+        <div className="mt-8 text-center">
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSdm3ligfecx3bEkG2euiOdcPq2Q20DFpYzzWHmnuopflNTyGQ/viewform"
             target="_blank"
             rel="noopener noreferrer"
-            className="font-semibold text-[#0f5b8d] underline underline-offset-2 hover:text-[#0b466d]"
+            className="inline-flex rounded-full bg-[#0f5b8d] px-8 py-4 text-lg font-bold text-white shadow-md transition hover:bg-[#0b466d] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#0f5b8d]"
           >
-            Open it directly
+            Register for the Event
           </a>
-          .
-        </p>
+        </div>
       </section>
     </main>
   );
