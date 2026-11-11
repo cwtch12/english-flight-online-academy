@@ -90,6 +90,11 @@ export default function EventsPage() {
               <li>Copy your <strong>UPI Transaction ID (UTR)</strong> from the payment confirmation.</li>
               <li>Fill in the registration form with your details and Transaction ID.</li>
               <li>Submit the form to complete your registration.</li>
+              <li>
+                The fee is non-refundable unless the Masterclass is cancelled
+                due to unforeseen circumstances. In that case, you may choose
+                to attend the next one.
+              </li>
             </ol>
 
             <div className="mt-6 flex flex-col items-center justify-center gap-4 sm:flex-row">
