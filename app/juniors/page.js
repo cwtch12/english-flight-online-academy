@@ -93,7 +93,7 @@ export default function JuniorsPage() {
 
           <div className="mt-6 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a
-              href="https://rzp.io/rzp/jtQYgmEp"
+              href="https://rzp.io/rzp/OdXfrTM"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex w-full justify-center rounded-full bg-[#13824b] px-8 py-4 text-lg font-bold text-white shadow-md transition hover:bg-[#0f6b3d] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#13824b] sm:w-auto"
