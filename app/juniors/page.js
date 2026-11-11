@@ -16,7 +16,7 @@ export default function JuniorsPage() {
             🚀 HOW TO START SPEAKING IN ENGLISH?
           </h2>
           <p className="mt-4 text-center text-lg font-bold text-[#0f5b8d] sm:text-xl">
-            Special English Speaking Session for Juniors (Ages 7–12)
+            Special English Speaking Session for Juniors (Ages 7–14)
           </p>
           <p className="mt-4 text-center leading-7">
             An engaging one-hour session introducing children to practical
