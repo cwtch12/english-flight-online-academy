@@ -87,6 +87,15 @@ export default function Navbar() {
               </span>
             </Link>
 
+            <Link href="/juniors" className={linkClass("/juniors")}>
+              <span className="inline-block pb-1">
+                Juniors
+                {pathname === "/juniors" && (
+                  <span className="mt-1 block h-0.5 rounded-full bg-blue-600"></span>
+                )}
+              </span>
+            </Link>
+
             <Link href="/contact" className={linkClass("/contact")}>
               <span className="inline-block pb-1">
                 Contact
@@ -157,6 +166,14 @@ export default function Navbar() {
               onClick={() => setMenuOpen(false)}
             >
               Events
+            </Link>
+
+            <Link
+              href="/juniors"
+              className={`${linkClass("/juniors")} rounded-md px-2 py-2 hover:bg-gray-50`}
+              onClick={() => setMenuOpen(false)}
+            >
+              Juniors
             </Link>
 
             <Link
