@@ -78,9 +78,9 @@ export default function Footer() {
             <p>© 2026 English Flight (Online Academy). All Rights Reserved.</p>
             <a
               href="/privacy-policy"
-              className="transition-colors hover:text-white focus-visible:text-white"
+              className="font-semibold text-[#f6c343] underline underline-offset-4 transition-colors hover:text-white focus-visible:text-white"
             >
-              Policy
+              Privacy Policy
             </a>
           </div>
         </div>
