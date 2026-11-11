@@ -6,25 +6,25 @@ export const metadata = {
 
 export default function EventsPage() {
   return (
-    <main className="min-h-[60vh] bg-gradient-to-b from-[#eaf4fb] to-[#fff9e9] px-4 py-12 text-[#12314f] sm:px-6 sm:py-16">
-      <section className="mx-auto w-full max-w-4xl rounded-3xl border border-[#d9e5f2] bg-white p-5 shadow-[0_20px_55px_rgba(7,26,51,0.16)] sm:p-8">
+    <main className="min-h-[60vh] bg-[#071b33] px-4 py-12 text-white sm:px-6 sm:py-16">
+      <section className="mx-auto w-full max-w-4xl rounded-3xl border border-[#294563] bg-[#102a46] p-5 shadow-[0_20px_55px_rgba(0,0,0,0.3)] sm:p-8">
         <div className="text-center">
-          <p className="text-sm font-bold uppercase tracking-[0.2em] text-[#0f5b8d]">
+          <p className="text-sm font-bold uppercase tracking-[0.2em] text-white">
             English Flight (Online Academy)
           </p>
-          <h1 className="mt-4 text-3xl font-black text-[#102f4b] sm:text-5xl">
+          <h1 className="mt-4 text-3xl font-black text-white sm:text-5xl">
             Soft Skills Masterclass
           </h1>
-          <p className="mt-3 text-lg font-bold text-[#0f5b8d]">
+          <p className="mt-3 text-lg font-bold text-white">
             Part I – Personal Effectiveness
           </p>
           <div className="mx-auto mt-5 h-1 w-16 rounded-full bg-[#f6c343]" />
-          <p className="mx-auto mt-5 max-w-2xl text-lg font-semibold leading-8 text-slate-700">
+          <p className="mx-auto mt-5 max-w-2xl text-lg font-semibold leading-8 text-white">
             How well do we understand, manage and present ourselves?
           </p>
         </div>
 
-        <div className="mx-auto mt-8 max-w-3xl space-y-8 text-slate-700">
+        <div className="mx-auto mt-8 max-w-3xl space-y-8 text-white">
           <p className="text-base leading-7 sm:text-lg">
             Personal effectiveness begins with understanding ourselves,
             managing our emotions and taking responsibility for our actions.
@@ -39,8 +39,8 @@ export default function EventsPage() {
           </p>
 
           <div className="grid gap-6 sm:grid-cols-2">
-            <section className="rounded-2xl bg-[#f3f8fc] p-5">
-              <h2 className="text-xl font-bold text-[#102f4b]">
+            <section className="rounded-2xl bg-[#173653] p-5">
+              <h2 className="text-xl font-bold text-white">
                 What We Will Explore
               </h2>
               <ol className="mt-4 list-inside list-decimal space-y-2 leading-7">
@@ -57,8 +57,8 @@ export default function EventsPage() {
               </p>
             </section>
 
-            <section className="rounded-2xl bg-[#fff9e9] p-5">
-              <h2 className="text-xl font-bold text-[#102f4b]">
+            <section className="rounded-2xl bg-[#173653] p-5">
+              <h2 className="text-xl font-bold text-white">
                 Masterclass Details
               </h2>
               <ul className="mt-4 space-y-2 leading-7">
@@ -73,7 +73,7 @@ export default function EventsPage() {
           </div>
 
           <section>
-            <h2 className="text-xl font-bold text-[#102f4b]">Trainer</h2>
+            <h2 className="text-xl font-bold text-white">Trainer</h2>
             <p className="mt-2 leading-7">
               <strong>Nasir</strong>
               <br />
@@ -81,8 +81,8 @@ export default function EventsPage() {
             </p>
           </section>
 
-          <section className="rounded-2xl border border-[#d9e5f2] p-5">
-            <h2 className="text-xl font-bold text-[#102f4b]">
+          <section className="rounded-2xl border border-[#294563] p-5">
+            <h2 className="text-xl font-bold text-white">
               Registration Process
             </h2>
             <ol className="mt-4 list-inside list-decimal space-y-2 leading-7">
@@ -113,7 +113,7 @@ export default function EventsPage() {
           </section>
 
           <section>
-            <h2 className="text-xl font-bold text-[#102f4b]">What&apos;s Next?</h2>
+            <h2 className="text-xl font-bold text-white">What&apos;s Next?</h2>
             <p className="mt-2 leading-7">
               Once your payment is verified, your registration will be
               confirmed. The <strong>Joining Link</strong> will be shared with
@@ -121,7 +121,7 @@ export default function EventsPage() {
             </p>
           </section>
 
-          <p className="text-center text-lg font-bold text-[#0f5b8d]">
+          <p className="text-center text-lg font-bold text-white">
             Let&apos;s learn, reflect and grow together!
           </p>
         </div>
