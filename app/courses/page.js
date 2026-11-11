@@ -126,16 +126,6 @@ export default function Courses() {
                 {course.desc}
               </p>
 
-              {course.slug === "soft-skills" && (
-                <a
-                  href="https://rzp.io/rzp/jtQYgmEp"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="mt-6 inline-flex min-h-12 items-center justify-center rounded-full bg-teal-700 px-6 py-3 font-semibold text-white transition hover:bg-teal-800 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-teal-700"
-                >
-                  Pay for the Soft Skills Masterclass
-                </a>
-              )}
             </div>
           ))}
 
