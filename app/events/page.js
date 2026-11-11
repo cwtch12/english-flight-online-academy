@@ -102,7 +102,7 @@ export default function EventsPage() {
                 Pay Now
               </a>
               <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLSdm3ligfecx3bEkG2euiOdcPq2Q20DFpYzzWHmnuopflNTyGQ/viewform"
+                href="https://docs.google.com/forms/d/e/1FAIpQLScp1aFpcuQBAEzX9O1QWIe1H8yIHDCBWHPwp32v6GI5T7euxA/viewform?usp=header"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex rounded-full bg-[#0f5b8d] px-8 py-4 text-lg font-bold text-white shadow-md transition hover:bg-[#0b466d] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#0f5b8d]"
