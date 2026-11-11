@@ -1,21 +1,8 @@
-import Image from "next/image";
 import { FaPhoneAlt, FaWhatsapp, FaEnvelope } from "react-icons/fa";
 
 export default function Footer() {
   return (
     <footer className="relative w-full overflow-hidden bg-[#102f4b] text-white">
-      <div className="absolute inset-0 opacity-40">
-        <Image
-          src="/garden-flowers.svg"
-          alt="Night sky background"
-          fill
-          className="object-cover"
-          priority
-        />
-        {/* gradient overlay */}
-        <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/90 to-transparent"></div>
-      </div>
-
       <div className="relative mx-auto max-w-full px-4 py-16 sm:px-6 sm:py-20">
         <div className="rounded-[2rem] border border-sky-100/15 bg-[#0b2740]/90 p-8 shadow-2xl backdrop-blur-xl sm:p-12">
           <div className="grid gap-10 lg:grid-cols-[1.4fr_1fr] lg:items-start">
