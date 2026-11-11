@@ -74,6 +74,48 @@ export default function JuniorsPage() {
             </dl>
           </section>
         </div>
+
+        <section className="mx-6 mb-8 rounded-3xl border-2 border-[#d9e8ff] bg-[#f8fbff] p-5 sm:mx-10 sm:p-8">
+          <h2 className="text-2xl font-black text-[#243c68] sm:text-3xl">
+            🎟️ How to Register
+          </h2>
+          <ol className="mt-5 list-inside list-decimal space-y-3 leading-7 text-[#293955]">
+            <li>Click <strong>Pay Now</strong> and pay the participation fee of ₹100.</li>
+            <li>Copy your <strong>UPI Transaction ID (UTR)</strong> from the payment confirmation.</li>
+            <li>Fill in the registration form with your details and Transaction ID.</li>
+            <li>Submit the form to complete your registration.</li>
+            <li>
+              The fee is non-refundable unless the session is cancelled due to
+              unforeseen circumstances. In that case, you may choose to attend
+              the next session.
+            </li>
+          </ol>
+
+          <div className="mt-6 flex flex-col items-center justify-center gap-4 sm:flex-row">
+            <a
+              href="https://rzp.io/rzp/jtQYgmEp"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex w-full justify-center rounded-full bg-[#13824b] px-8 py-4 text-lg font-bold text-white shadow-md transition hover:bg-[#0f6b3d] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#13824b] sm:w-auto"
+            >
+              Pay Now
+            </a>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLScp1aFpcuQBAEzX9O1QWIe1H8yIHDCBWHPwp32v6GI5T7euxA/viewform?usp=header"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex w-full justify-center rounded-full bg-[#0f5b8d] px-8 py-4 text-lg font-bold text-white shadow-md transition hover:bg-[#0b466d] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#0f5b8d] sm:w-auto"
+            >
+              Registration Form
+            </a>
+          </div>
+          <p className="mt-6 text-center leading-7 text-[#293955]">
+            Once your payment is verified, your registration will be confirmed.
+            The joining link will be shared with you on your registered
+            WhatsApp number or email address.
+          </p>
+        </section>
+
         <p className="bg-[#fff0d9] px-6 py-4 text-center font-bold text-[#715329]">
           🌟 Come along, have fun and let your English shine! 🌟
         </p>
