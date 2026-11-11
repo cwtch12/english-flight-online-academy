@@ -101,7 +101,7 @@ export default function JuniorsPage() {
               Pay Now
             </a>
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLScp1aFpcuQBAEzX9O1QWIe1H8yIHDCBWHPwp32v6GI5T7euxA/viewform?usp=header"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSc4ob0hXKPdkv_zYAc34gbjEBA7kEFz2UnaFkfKCNEcX8k1bg/viewform?usp=publish-editor"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex w-full justify-center rounded-full bg-[#0f5b8d] px-8 py-4 text-lg font-bold text-white shadow-md transition hover:bg-[#0b466d] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#0f5b8d] sm:w-auto"
