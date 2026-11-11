@@ -91,9 +91,9 @@ export default function EventsPage() {
               <li>Fill in the registration form with your details and Transaction ID.</li>
               <li>Submit the form to complete your registration.</li>
               <li>
-                The fee is non-refundable unless the Masterclass is cancelled
-                due to unforeseen circumstances. In that case, you may choose
-                to attend the next one.
+                The fee is non-refundable. If the Masterclass is cancelled, you
+                may choose a refund or attend the next session of the same part
+                at no additional cost.
               </li>
             </ol>
 
