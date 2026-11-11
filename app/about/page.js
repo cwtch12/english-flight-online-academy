@@ -72,11 +72,11 @@ export default function About() {
             <div className="space-y-5">
 
               {[
-                "100% Live Online Flight Sessions",
+                "100% Live Online Classes",
                 "TESOL-Certified English Trainer",
                 "Certified Soft Skills Life Coach",
                 "Practical Speaking Practice",
-                "Personal Flight Guidance",
+                "Personalized Learning Guidance",
                 "Board from Anywhere",
               ].map((item, index) => (
                 <div key={index} className="flex items-center gap-4">
