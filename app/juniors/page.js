@@ -14,7 +14,7 @@ export default function JuniorsPage() {
             Hey, Juniors!
           </p>
           <h1 className="mx-auto mt-5 max-w-2xl text-3xl font-black leading-tight text-[#173b5b] sm:text-5xl">
-            🚀 How to Start Speaking in English?
+            🚀 How to Start Speaking in English? — Part I
           </h1>
           <p className="mt-4 text-lg font-extrabold text-[#24466a] sm:text-2xl">
             A special English-speaking session for ages 7–14
