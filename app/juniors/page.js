@@ -36,7 +36,7 @@ export default function JuniorsPage() {
         <div className="grid gap-8 p-6 sm:p-10 md:grid-cols-[1.1fr_0.9fr]">
           <section>
             <h2 className="flex items-center gap-2 text-2xl font-black text-[#243c68] sm:text-3xl">
-              <span aria-hidden="true">📚</span> Today&apos;s Challenges
+              <span aria-hidden="true">📚</span> What We&apos;ll Practise
             </h2>
             <p className="mt-2 text-[#596782]">Four fun skills to practise:</p>
             <ul className="mt-5 space-y-3">
@@ -61,7 +61,7 @@ export default function JuniorsPage() {
 
           <section className="rounded-3xl border-2 border-[#dceebd] bg-[#f4fbe9] p-5 sm:p-6">
             <h2 className="text-2xl font-black text-[#315b32]">
-              📍 Game Day Details
+              📍               Session Details
             </h2>
             <dl className="mt-5 space-y-3">
               <div className="rounded-2xl bg-white p-4">
