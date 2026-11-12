@@ -22,22 +22,15 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 lg:px-6">
         {/* Top Row */}
         <div className="h-auto py-3 flex flex-wrap items-center justify-between gap-4">
-          {/* Logo with Airplane Icon and Text */}
-          <Link href="/" className="flex items-center gap-3">
-            {/* Airplane Icon */}
-            <div className="flex-shrink-0">
-              <Image src="/Englishflightlogo.png" alt="English Flight Logo" width={90} height={60} className="w-16 h-auto lg:w-24 lg:h-auto" priority />
-            </div>
-            
-            {/* Text and Tagline */}
-            <div className="flex flex-col">
-              <div className="text-xl font-bold text-[#102f4b] lg:text-2xl">
-                English Flight <span className="text-base font-semibold text-[#0f5b8d] lg:text-lg">(Online Academy)</span>
-              </div>
-              <div className="text-xs font-medium text-[#0f5b8d] lg:text-sm">
-                Your Flight to Better English and Beyond. ✈️
-              </div>
-            </div>
+          <Link href="/" aria-label="English Flight Online Academy home">
+            <Image
+              src="/Englishflightlogo.png"
+              alt="English Flight Online Academy"
+              width={303}
+              height={320}
+              className="h-16 w-auto lg:h-20"
+              priority
+            />
           </Link>
 
           {/* Desktop Menu */}
