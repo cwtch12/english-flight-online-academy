@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 import FloatingDemoButton from "../components/FloatingDemoButton";
 
 export const metadata = {
-  title: "English Flight (Online Academy)",
+  title: "English Flight",
   description: "Your flight plan for confident English speaking",
 };
 

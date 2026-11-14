@@ -36,7 +36,7 @@ export default function WebinarDetails() {
             </p>
           </div>
 
-          <p className="text-lg font-semibold text-[#102f4b]">English Flight (Online Academy)</p>
+          <p className="text-lg font-semibold text-[#102f4b]">English Flight</p>
 
           <a
             href="https://wa.me/917588484882?text=JOIN%20%2B%20Your%20Name"

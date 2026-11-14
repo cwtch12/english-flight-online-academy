@@ -10,7 +10,7 @@ export default function EventsPage() {
       <section className="mx-auto w-full max-w-4xl rounded-3xl border border-[#294563] bg-[#102a46] p-5 shadow-[0_20px_55px_rgba(0,0,0,0.3)] sm:p-8">
         <div className="text-center">
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-white">
-            English Flight (Online Academy)
+            English Flight
           </p>
           <h1 className="mt-4 text-3xl font-black text-white sm:text-5xl">
             Soft Skills Masterclass

@@ -29,7 +29,7 @@ export default function Contact() {
           </p>
 
           <a
-            href="https://wa.me/917588484882?text=Hello,%20I%20am%20interested%20in%20joining%20English%20Flight%20(Online%20Academy).%20Please%20share%20the%20course%20details."
+            href="https://wa.me/917588484882?text=Hello,%20I%20am%20interested%20in%20joining%20English%20Flight.%20Please%20share%20the%20course%20details."
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block mt-8 bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-full font-semibold transition"

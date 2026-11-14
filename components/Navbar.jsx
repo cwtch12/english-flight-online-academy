@@ -22,15 +22,22 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 lg:px-6">
         {/* Top Row */}
         <div className="h-auto py-3 flex flex-wrap items-center justify-between gap-4">
-          <Link href="/" aria-label="English Flight Online Academy home">
+          <Link
+            href="/"
+            aria-label="English Flight: Your Flight for better English and beyond"
+            className="flex items-center gap-3"
+          >
             <Image
               src="/Englishflightlogo.png"
-              alt="English Flight Online Academy"
+              alt="English Flight"
               width={303}
               height={320}
               className="h-16 w-auto lg:h-20"
               priority
             />
+            <span className="max-w-36 text-sm font-semibold leading-5 text-[#102f4b] sm:max-w-none sm:text-base">
+              Your Flight for better English and beyond
+            </span>
           </Link>
 
           {/* Desktop Menu */}

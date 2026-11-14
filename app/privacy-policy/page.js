@@ -1,7 +1,7 @@
 export const metadata = {
-  title: "Privacy Policy | English Flight (Online Academy)",
+  title: "Privacy Policy | English Flight",
   description:
-    "Learn how English Flight (Online Academy) handles personal information when you contact us or use our website.",
+    "Learn how English Flight handles personal information when you contact us or use our website.",
 };
 
 const sections = [

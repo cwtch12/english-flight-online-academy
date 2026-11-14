@@ -8,7 +8,7 @@ export default function AboutSection() {
         </span>
 
         <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mt-3">
-          English Flight (Online Academy)
+          English Flight
         </h2>
 
         <p className="mt-6 text-lg text-gray-600 leading-8">
