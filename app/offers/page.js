@@ -4,10 +4,10 @@ export default function OffersPage() {
   return (
     <main className="min-h-screen bg-gradient-to-b from-slate-950 via-slate-900 to-[#102f4b] px-4 py-10 text-white sm:px-6 sm:py-14">
       <div className="mx-auto max-w-4xl">
-        <section className="overflow-hidden rounded-3xl border border-amber-300/40 bg-[#102f4b] text-center shadow-2xl shadow-black/40">
-          <div className="bg-gradient-to-r from-amber-500 via-yellow-300 to-amber-500 px-6 py-8 text-slate-950 sm:py-10">
+        <section className="overflow-hidden rounded-3xl border border-sky-300/40 bg-[#102f4b] text-center shadow-2xl shadow-black/40">
+          <div className="bg-gradient-to-r from-sky-300 via-cyan-100 to-sky-300 px-6 py-8 text-slate-950 sm:py-10">
             <p className="text-sm font-bold uppercase tracking-[0.25em]">
-              Limited-time festive offer
+              Year Ending Offer
             </p>
             <h1 className="mt-2 text-3xl font-black sm:text-5xl">
               Special Course Fee
@@ -34,7 +34,7 @@ export default function OffersPage() {
               )}
             </div>
 
-            <p className="mt-7 font-semibold text-amber-200">
+            <p className="mt-7 font-semibold text-sky-200">
               Minimum 4 students per batch
             </p>
             <p className="mt-3 text-sky-100">
@@ -42,7 +42,7 @@ export default function OffersPage() {
             </p>
 
             <a
-              href="https://wa.me/917588484882?text=Hello,%20I%20am%20interested%20in%20the%20Festive%20Offer."
+              href="https://wa.me/917588484882?text=Hello,%20I%20am%20interested%20in%20the%20Year%20Ending%20Offer."
               target="_blank"
               rel="noopener noreferrer"
               className="mt-8 inline-flex items-center justify-center gap-3 rounded-full bg-green-600 px-7 py-4 text-lg font-bold text-white transition hover:bg-green-700 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white"
