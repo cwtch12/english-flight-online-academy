@@ -5,14 +5,14 @@
   className="fixed right-8 bottom-8 z-50 w-36 h-36 rounded-full bg-amber-400 border-4 border-white shadow-2xl flex flex-col items-center justify-center text-center animate-floating hover:scale-110 transition"
 >
   <span className="text-2xl font-extrabold text-slate-900">
-    BOARD
+    JOIN US
   </span>
 
   <span className="text-xl font-bold text-slate-900">
-    YOUR FLIGHT
+    FREE DEMO
   </span>
 
   <span className="text-xs font-bold uppercase tracking-wider text-slate-800 mt-1">
-    CHECK IN
+    BOOK NOW
   </span>
 </a>

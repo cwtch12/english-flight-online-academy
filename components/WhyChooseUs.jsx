@@ -23,7 +23,7 @@ export default function WhyChooseUs() {
       icon: <FaUserGraduate size={30} className="text-blue-600" />,
       title: "Small Batches",
       description:
-        "Personal guidance so every learner can stay on course.",
+        "Personal guidance to help every learner make steady progress.",
     },
     {
       icon: <FaLaptop size={30} className="text-blue-600" />,

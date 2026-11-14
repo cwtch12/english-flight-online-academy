@@ -104,7 +104,7 @@ export default function CourseDetailPage({ params }) {
           href="/courses"
           className="inline-flex items-center gap-2 text-teal-300 hover:text-white"
         >
-          <FaArrowLeft /> Back to Flight Routes
+          <FaArrowLeft /> Back to Courses
         </Link>
 
         <div className="mt-10 rounded-3xl border border-slate-700 bg-slate-900 p-10 shadow-2xl">
@@ -135,9 +135,10 @@ export default function CourseDetailPage({ params }) {
           )}
 
           <div className="mt-10 rounded-3xl bg-gradient-to-r from-teal-600 to-sky-500 p-8 text-slate-950">
-            <h2 className="text-2xl font-bold mb-3">Flight Route Summary</h2>
+            <h2 className="text-2xl font-bold mb-3">Course Overview</h2>
             <p className="leading-8">
-              This route is designed to help you build practical English skills in a short span of time, with live sessions, expert guidance, and real communication practice.
+              This course is designed to help you build practical English skills
+              with live sessions, expert guidance, and real communication practice.
             </p>
           </div>
         </div>

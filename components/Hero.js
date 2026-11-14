@@ -17,7 +17,7 @@ export default function Hero() {
             </div>
 
             <h1 className="mt-6 text-4xl font-bold leading-tight text-white sm:text-5xl lg:text-6xl">
-              Take Off with Confident English
+              Speak English with Confidence
             </h1>
 
             <div className="mx-auto mt-6 h-1 w-24 rounded-full bg-[#f6c343] lg:mx-0"></div>
@@ -25,7 +25,7 @@ export default function Hero() {
             <p className="mt-8 text-base leading-8 text-sky-100/85 md:text-lg">
               Build confident English through live, interactive classes, with
               the option to join online from wherever you are. Follow a clear
-              flight plan, strengthen your communication, and reach your
+              learning plan, strengthen your communication, and reach your
               speaking goals step by step.
             </p>
           </div>

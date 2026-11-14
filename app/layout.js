@@ -5,7 +5,7 @@ import FloatingDemoButton from "../components/FloatingDemoButton";
 
 export const metadata = {
   title: "English Flight",
-  description: "Your flight plan for confident English speaking",
+  description: "Practical English classes to help you speak with confidence",
 };
 
 export default function RootLayout({ children }) {

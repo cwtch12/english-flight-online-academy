@@ -8,15 +8,15 @@ export default function Footer() {
           <div className="grid gap-10 lg:grid-cols-[1.4fr_1fr] lg:items-start">
             <div>
               <span className="inline-flex rounded-full bg-[#f6c343]/15 px-3 py-1 text-sm font-semibold uppercase tracking-[0.24em] text-[#f6c343] shadow-sm shadow-[#f6c343]/10">
-                Your English Destination
+                English Learning
               </span>
 
               <h2 className="mt-6 text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
-                A clear runway for your English journey
+                A clear path to confident English
               </h2>
 
               <p className="mt-5 max-w-2xl text-base leading-8 text-slate-300 sm:text-lg">
-                Follow a practical route where every lesson builds confidence, every conversation adds altitude, and every learner moves closer to fluent English.
+                Every lesson builds confidence, every conversation strengthens communication, and every learner moves closer to fluent English.
               </p>
             </div>
 

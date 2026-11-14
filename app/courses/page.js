@@ -82,7 +82,7 @@ export default function Courses() {
       <section className="bg-teal-800 py-20 text-center">
 
         <h1 className="text-5xl font-bold text-white">
-          Choose Your English Flight
+          Explore Our Classes
         </h1>
 
         <div className="w-24 h-1 bg-teal-300 mx-auto mt-5 rounded-full"></div>

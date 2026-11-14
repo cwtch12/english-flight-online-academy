@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FaPlaneDeparture } from "react-icons/fa";
+import { FaRegComments } from "react-icons/fa";
 
 export default function FloatingDemoButton() {
   return (
@@ -18,7 +18,7 @@ export default function FloatingDemoButton() {
         <span className="absolute inset-x-2 bottom-1.5 h-2 rounded-full bg-[#0f3557]/10 blur-md" />
 
         <span className="relative flex flex-col items-center justify-center leading-none">
-          <FaPlaneDeparture className="mb-1 -rotate-12 text-base sm:text-lg lg:text-2xl" aria-hidden="true" />
+          <FaRegComments className="mb-1 text-base sm:text-lg lg:text-2xl" aria-hidden="true" />
           <span className="text-[6px] font-black uppercase tracking-[0.22em] sm:text-[7px] lg:text-[8px]">
             FREE DEMO
           </span>

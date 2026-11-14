@@ -15,17 +15,16 @@ export default function Contact() {
         <div className="max-w-6xl mx-auto px-6 text-center">
 
           <p className="text-amber-400 uppercase tracking-widest font-semibold">
-            Check In With Us
+            Get in Touch
           </p>
 
           <h1 className="text-5xl md:text-6xl font-bold text-white mt-4">
-            Let&apos;s Plan Your English Takeoff
+            Let&apos;s Build Your English Skills
           </h1>
 
           <p className="text-gray-300 mt-6 text-lg max-w-3xl mx-auto leading-8">
-            Have questions about your English flight plan?
-            Contact us today. Our team is one phone call or WhatsApp
-            message away.
+            Have questions about improving your English? Contact us by phone
+            or WhatsApp.
           </p>
 
           <a
@@ -34,7 +33,7 @@ export default function Contact() {
             rel="noopener noreferrer"
             className="inline-block mt-8 bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-full font-semibold transition"
           >
-            Check In on WhatsApp
+            Message Us on WhatsApp
           </a>
 
         </div>
@@ -62,7 +61,7 @@ export default function Contact() {
           <div>
 
             <h2 className="text-3xl font-bold text-slate-900 mb-8">
-              Flight Desk Information
+              Contact Information
             </h2>
 
             <div className="space-y-8">
@@ -73,7 +72,7 @@ export default function Contact() {
 
                 <div>
                   <h3 className="font-semibold text-lg">
-                    Call the Flight Desk
+                    Call Us
                   </h3>
 
                   <a
@@ -94,7 +93,7 @@ export default function Contact() {
                 <div>
 
                   <h3 className="font-semibold text-lg">
-                    WhatsApp Check-In
+                    WhatsApp
                   </h3>
 
                   <a

@@ -10,7 +10,7 @@ export default function About() {
         <div className="max-w-5xl mx-auto px-6 text-center">
 
           <p className="uppercase tracking-[4px] text-amber-400 font-semibold">
-            Welcome Aboard
+            Welcome
           </p>
 
           <h1 className="text-5xl md:text-6xl font-bold text-white mt-3">
@@ -20,8 +20,9 @@ export default function About() {
           <div className="w-28 h-1 bg-amber-400 mx-auto mt-6 rounded-full"></div>
 
           <p className="mt-8 text-xl text-white leading-8 max-w-3xl mx-auto">
-            Helping students and professionals take off as confident English speakers
-            through practical, interactive classes, with the option to join live online.
+            Helping students and professionals become confident English
+            speakers through practical, interactive classes, with the option
+            to join live online.
           </p>
 
         </div>
@@ -39,7 +40,7 @@ export default function About() {
           <div>
 
             <h2 className="text-3xl font-bold text-slate-900 mb-6">
-              How This Flight Began
+              Our Story
             </h2>
 
             <div className="w-20 h-1 bg-amber-400 mb-8 rounded-full"></div>
@@ -64,7 +65,7 @@ export default function About() {
           <div>
 
             <h2 className="text-3xl font-bold text-slate-900 mb-6">
-              Why Learners Choose This Flight
+              Why Learners Choose Us
             </h2>
 
             <div className="w-20 h-1 bg-amber-400 mb-8 rounded-full"></div>
@@ -105,7 +106,7 @@ export default function About() {
         <div className="max-w-4xl mx-auto text-center px-6">
 
           <h2 className="text-4xl font-bold text-white">
-            Our Flight Mission
+            Our Mission
           </h2>
 
           <div className="w-24 h-1 bg-amber-400 mx-auto mt-5 rounded-full"></div>
@@ -113,7 +114,7 @@ export default function About() {
           <p className="mt-8 text-lg text-white leading-10">
             Our mission is to make Spoken English simple, practical and
             confidence-building so every learner can communicate naturally
-            and reach new destinations in personal, academic and professional life.
+            and achieve their goals in personal, academic and professional life.
           </p>
 
         </div>
