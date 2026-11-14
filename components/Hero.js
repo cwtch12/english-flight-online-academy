@@ -11,12 +11,8 @@ export default function Hero() {
         <div className="grid items-center gap-12 lg:grid-cols-2">
           <div className="text-center lg:text-left">
             <div className="mb-6">
-              <h2 className="text-6xl font-extrabold leading-none text-[#f6c343] md:text-7xl lg:text-8xl">
-                100%
-              </h2>
-
               <p className="mt-2 text-lg font-bold uppercase tracking-[8px] text-[#e39a08] md:text-xl">
-                ONLINE CLASSES
+                ONLINE OPTION AVAILABLE
               </p>
             </div>
 
@@ -27,9 +23,10 @@ export default function Hero() {
             <div className="mx-auto mt-6 h-1 w-24 rounded-full bg-[#f6c343] lg:mx-0"></div>
 
             <p className="mt-8 text-base leading-8 text-sky-100/85 md:text-lg">
-              Board from anywhere and build confident English through live,
-              interactive classes. Follow a clear flight plan, strengthen your
-              communication, and reach your speaking goals step by step.
+              Build confident English through live, interactive classes, with
+              the option to join online from wherever you are. Follow a clear
+              flight plan, strengthen your communication, and reach your
+              speaking goals step by step.
             </p>
           </div>
 

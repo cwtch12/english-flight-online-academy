@@ -21,7 +21,7 @@ export default function About() {
 
           <p className="mt-8 text-xl text-white leading-8 max-w-3xl mx-auto">
             Helping students and professionals take off as confident English speakers
-            through practical, interactive and 100% live online classes.
+            through practical, interactive classes, with the option to join live online.
           </p>
 
         </div>
@@ -72,12 +72,12 @@ export default function About() {
             <div className="space-y-5">
 
               {[
-                "100% Live Online Classes",
+                "Live Online Option Available",
                 "TESOL-Certified English Trainer",
                 "Certified Soft Skills Life Coach",
                 "Practical Speaking Practice",
                 "Personalized Learning Guidance",
-                "Board from Anywhere",
+                "Join Online from Anywhere",
               ].map((item, index) => (
                 <div key={index} className="flex items-center gap-4">
 

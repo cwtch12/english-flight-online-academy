@@ -71,7 +71,7 @@ export default function Courses() {
     {
       title: "All-Subjects School Tuition",
       icon: <FaGraduationCap className="text-5xl text-teal-700" />,
-      desc: "Online tuition in all school subjects for students from Standard 1 through Standard 8.",
+      desc: "Tuition in all school subjects for students from Standard 1 through Standard 8. Ask us about joining online.",
     },
   ];
 
@@ -88,8 +88,9 @@ export default function Courses() {
         <div className="w-24 h-1 bg-teal-300 mx-auto mt-5 rounded-full"></div>
 
         <p className="mt-6 text-lg text-white max-w-3xl mx-auto px-6">
-          Choose live online classes for English, communication skills, and
-          all-subject school tuition for Standards 1 to 8.
+          Explore classes in English, communication skills, and all-subject
+          school tuition for Standards 1 to 8. Live online participation is
+          available.
         </p>
 
       </section>

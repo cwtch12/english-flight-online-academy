@@ -138,11 +138,11 @@ export default function Contact() {
                 <div>
 
                   <h3 className="font-semibold text-lg">
-                    Your Online Departure Gate
+                    Connect with Us Online
                   </h3>
 
                   <p className="text-gray-600">
-                    Board from anywhere in India or around the world.
+                    Ask us about joining online from anywhere in India or around the world.
                   </p>
 
                 </div>

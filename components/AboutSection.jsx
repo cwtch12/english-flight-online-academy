@@ -13,7 +13,7 @@ export default function AboutSection() {
 
         <p className="mt-6 text-lg text-gray-600 leading-8">
           We help students and professionals speak English confidently through
-          practical, interactive and <strong>100% Live Online Classes.</strong>
+          practical, interactive classes, with the option to join live online.
         </p>
 
         <p className="mt-4 text-lg text-gray-600 leading-8">

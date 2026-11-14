@@ -47,9 +47,9 @@ export default function WhoCanJoin() {
           </h2>
 
           <p className="mx-auto mt-5 max-w-3xl text-base leading-7 text-sky-100 sm:text-lg sm:leading-8">
-            Our 100% live online Spoken English classes are designed for
-            learners from every background who want to speak English
-            confidently in real-life situations.
+            Our Spoken English classes are designed for learners from every
+            background who want to speak English confidently in real-life
+            situations, with the option to join live online.
           </p>
 
         </div>

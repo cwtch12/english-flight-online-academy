@@ -27,9 +27,9 @@ export default function WhyChooseUs() {
     },
     {
       icon: <FaLaptop size={30} className="text-blue-600" />,
-      title: "100% Live Online Classes",
+      title: "Live Online Option",
       description:
-        "Join live interactive classes from your home airport.",
+        "Connect online for live, interactive classes from wherever you are.",
     },
   ];
 

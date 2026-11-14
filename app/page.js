@@ -78,9 +78,9 @@ export default function Home() {
           <div className="mt-8 space-y-3">
             {[
               {
-                question: "Are classes held online?",
+                question: "Can I join classes online?",
                 answer:
-                  "Yes. English Flight offers live online classes, so you can join from wherever you are.",
+                  "Yes. You can connect online for live classes from wherever you are.",
               },
               {
                 question: "Do you offer school tuition?",
