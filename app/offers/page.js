@@ -38,7 +38,7 @@ export default function OffersPage() {
               Minimum 4 students per batch
             </p>
             <p className="mt-3 text-sky-100">
-              Offer ends on <strong className="text-white">31st December 2026</strong>
+              Offer ends on <strong className="text-white">30th November 2026</strong>
             </p>
 
             <a
