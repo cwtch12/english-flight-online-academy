@@ -24,7 +24,7 @@ export default function Navbar() {
         <div className="h-auto py-3 flex flex-wrap items-center justify-between gap-4">
           <Link
             href="/"
-            aria-label="English Flight: Your Flight for better English and beyond"
+            aria-label="English Flight: Spoken English and Communication Training"
             className="flex items-center gap-3"
           >
             <Image
@@ -35,8 +35,8 @@ export default function Navbar() {
               className="h-16 w-auto lg:h-20"
               priority
             />
-            <span className="max-w-36 text-sm font-semibold leading-5 text-[#102f4b] sm:max-w-none sm:text-base">
-              Your Flight for better English and beyond
+            <span className="max-w-48 text-sm font-semibold leading-5 text-[#102f4b] sm:max-w-none sm:text-base">
+              Spoken English &amp; Communication Training
             </span>
           </Link>
 
