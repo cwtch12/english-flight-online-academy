@@ -17,8 +17,9 @@ export default function OffersPage() {
 
           <div className="px-6 py-8 sm:px-10 sm:py-10">
             <p className="text-lg leading-8 text-sky-100">
-              Choose a programme and build your confidence with English Flight.
-              Join live online from wherever you are.
+              Enjoy special discounted fees on our featured courses and build
+              your confidence in English. Contact us to ask about enrolment and
+              available batches.
             </p>
 
             <div className="mt-8 grid gap-4 text-left sm:grid-cols-3">
