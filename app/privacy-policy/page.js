@@ -8,7 +8,7 @@ const sections = [
   {
     title: "Information you share with us",
     paragraphs: [
-      "This website does not currently have account registration or contact forms. If you contact us by phone, email, or WhatsApp, you may choose to share details such as your name, contact information, learning goals, or a student's class level.",
+      "This website does not currently have account registration or contact forms. If you contact us by phone, email, or WhatsApp, you may choose to share details such as your name, contact information, or learning goals.",
       "Please avoid sending sensitive personal information unless it is necessary for your enquiry.",
     ],
   },
@@ -27,7 +27,7 @@ const sections = [
   {
     title: "Children's information",
     paragraphs: [
-      "Our school tuition includes students in Standards 1 to 8. Parents or guardians should contact us and share a child's information on their behalf. We use information about a student only to respond to the enquiry or support their classes.",
+      "If you are under 18, please have a parent or guardian contact us and share your information on your behalf. We use information provided to respond to the enquiry.",
     ],
   },
   {

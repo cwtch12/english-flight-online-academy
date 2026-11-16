@@ -22,14 +22,14 @@ export default function Home() {
       <section className="bg-[#f5fbff] px-6 py-12 text-center">
         <div className="mx-auto max-w-4xl">
           <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#0f5b8d]">
-            School Tuition
+            Spoken English & Communication Training
           </p>
           <h2 className="mt-3 text-3xl font-bold text-[#102f4b] sm:text-4xl">
-            All Subjects for Standards 1 to 8
+            Speak English with Confidence
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-lg leading-8 text-slate-600">
-            In addition to English classes, we teach all school subjects for
-            students from Standard 1 through Standard 8.
+            Build fluency, communication skills, and confidence through
+            practical English classes.
           </p>
           <Link
             href="/courses"
@@ -81,11 +81,6 @@ export default function Home() {
                 question: "Can I join classes online?",
                 answer:
                   "Yes. You can connect online for live classes from wherever you are.",
-              },
-              {
-                question: "Do you offer school tuition?",
-                answer:
-                  "Yes. We teach all school subjects for students from Standard 1 through Standard 8.",
               },
               {
                 question: "How can I ask about courses and schedules?",
