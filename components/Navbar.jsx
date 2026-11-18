@@ -69,6 +69,15 @@ export default function Navbar() {
               </span>
             </Link>
 
+            <Link href="/membership" className={linkClass("/membership")}>
+              <span className="inline-block pb-1">
+                Membership
+                {pathname === "/membership" && (
+                  <span className="mt-1 block h-0.5 rounded-full bg-blue-600"></span>
+                )}
+              </span>
+            </Link>
+
             <Link href="/offers" className={linkClass("/offers")}>
               <span className="inline-block pb-1">
                 Offers
@@ -82,15 +91,6 @@ export default function Navbar() {
               <span className="inline-block pb-1">
                 Events
                 {pathname === "/events" && (
-                  <span className="mt-1 block h-0.5 rounded-full bg-blue-600"></span>
-                )}
-              </span>
-            </Link>
-
-            <Link href="/webinar" className={linkClass("/webinar")}>
-              <span className="inline-block pb-1">
-                Webinar
-                {pathname === "/webinar" && (
                   <span className="mt-1 block h-0.5 rounded-full bg-blue-600"></span>
                 )}
               </span>
@@ -145,6 +145,14 @@ export default function Navbar() {
             </Link>
 
             <Link
+              href="/membership"
+              className={`${linkClass("/membership")} rounded-md px-2 py-2 hover:bg-gray-50`}
+              onClick={() => setMenuOpen(false)}
+            >
+              Membership
+            </Link>
+
+            <Link
               href="/offers"
               className={`${linkClass("/offers")} rounded-md px-2 py-2 hover:bg-gray-50`}
               onClick={() => setMenuOpen(false)}
@@ -158,14 +166,6 @@ export default function Navbar() {
               onClick={() => setMenuOpen(false)}
             >
               Events
-            </Link>
-
-            <Link
-              href="/webinar"
-              className={`${linkClass("/webinar")} rounded-md px-2 py-2 hover:bg-gray-50`}
-              onClick={() => setMenuOpen(false)}
-            >
-              Webinar
             </Link>
 
             <Link
