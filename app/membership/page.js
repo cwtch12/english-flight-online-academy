@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 const benefits = [
   {
     icon: "💬",
@@ -80,12 +78,14 @@ export default function MembershipPage() {
               Flight! ✨
             </p>
             <div className="mt-7 text-center">
-              <Link
-                href="/contact"
+              <a
+                href="https://wa.me/917588484882?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20the%20English%20Flight%20membership."
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex rounded-full bg-gradient-to-r from-amber-400 via-yellow-300 to-amber-500 px-7 py-3 font-bold text-neutral-950 shadow-lg shadow-amber-500/20 transition hover:brightness-110 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-amber-300"
               >
                 Ask about membership
-              </Link>
+              </a>
             </div>
           </div>
         </section>
