@@ -1,23 +1,33 @@
 import { FaWhatsapp } from "react-icons/fa";
 
 const courses = [
-  { name: "Basic English", price: "₹3,000" },
-  { name: "Advanced English", price: "₹6,000" },
+  {
+    name: "Basic English",
+    price: "₹3,000",
+    cardColor:
+      "border-amber-500/40 bg-gradient-to-br from-zinc-800 via-neutral-900 to-stone-900",
+  },
+  {
+    name: "Advanced English",
+    price: "₹6,000",
+    cardColor:
+      "border-amber-400/60 bg-gradient-to-br from-stone-800 via-neutral-900 to-zinc-900",
+  },
 ];
 
 export default function OffersPage() {
   return (
-    <main className="min-h-screen bg-gradient-to-br from-amber-50 via-orange-50 to-sky-100 px-4 py-12 text-slate-900 sm:px-6 sm:py-16">
+    <main className="min-h-screen bg-gradient-to-br from-stone-950 via-black to-zinc-900 px-4 py-12 text-stone-100 sm:px-6 sm:py-16">
       <div className="mx-auto max-w-5xl">
-        <section className="overflow-hidden rounded-3xl border border-white/80 bg-white/90 shadow-2xl shadow-sky-900/10 backdrop-blur">
-          <div className="bg-gradient-to-r from-sky-900 via-blue-800 to-indigo-900 px-6 py-10 text-center text-white sm:px-10 sm:py-14">
-            <p className="text-sm font-bold uppercase tracking-[0.25em] text-amber-300">
+        <section className="overflow-hidden rounded-3xl border border-amber-500/40 bg-neutral-950 shadow-2xl shadow-black/60">
+          <div className="border-b border-amber-400/25 bg-gradient-to-r from-black via-zinc-900 to-stone-950 px-6 py-10 text-center sm:px-10 sm:py-14">
+            <p className="text-sm font-bold uppercase tracking-[0.25em] text-amber-400">
               Year-End Special
             </p>
-            <h1 className="mt-3 text-3xl font-black sm:text-5xl">
+            <h1 className="mt-3 bg-gradient-to-r from-amber-200 via-yellow-400 to-amber-500 bg-clip-text text-3xl font-black text-transparent sm:text-5xl">
               Make this the year you speak with confidence
             </h1>
-            <p className="mx-auto mt-4 max-w-2xl text-base leading-7 text-sky-100 sm:text-lg">
+            <p className="mx-auto mt-4 max-w-2xl text-base leading-7 text-stone-300 sm:text-lg">
               Take the next step in your English journey with a course that
               matches your goals.
             </p>
@@ -25,29 +35,29 @@ export default function OffersPage() {
 
           <div className="px-6 py-9 sm:px-10 sm:py-12">
             <div className="grid gap-5 sm:grid-cols-2">
-              {courses.map(({ name, price }) => (
+              {courses.map(({ name, price, cardColor }) => (
                 <article
                   key={name}
-                  className="rounded-2xl border border-sky-200 bg-gradient-to-br from-white to-sky-50 p-6 text-center shadow-lg shadow-sky-900/5 sm:p-8"
+                  className={`rounded-2xl border p-6 text-center shadow-lg shadow-black/30 sm:p-8 ${cardColor}`}
                 >
-                  <h2 className="text-xl font-extrabold text-slate-800 sm:text-2xl">
+                  <h2 className="text-xl font-extrabold text-stone-100 sm:text-2xl">
                     {name}
                   </h2>
-                  <p className="mt-5 text-4xl font-black text-blue-800 sm:text-5xl">
+                  <p className="mt-5 text-4xl font-black text-amber-300 sm:text-5xl">
                     {price}
                   </p>
-                  <p className="mt-2 font-semibold text-slate-500">per month</p>
+                  <p className="mt-2 font-semibold text-stone-400">per month</p>
                 </article>
               ))}
             </div>
 
-            <p className="mt-8 text-center text-slate-600">
+            <p className="mt-8 text-center text-stone-300">
               Choose your level and get in touch to ask about enrolment and
               upcoming batches.
             </p>
 
             <div className="mt-6 text-center">
-              <span className="inline-flex rounded-full border border-amber-300 bg-amber-100 px-5 py-2 text-sm font-bold text-amber-900 sm:text-base">
+              <span className="inline-flex rounded-full border border-amber-400/50 bg-amber-400/10 px-5 py-2 text-sm font-bold text-amber-300 sm:text-base">
                 Year-ending offer ends 31st December 2026
               </span>
             </div>
@@ -57,9 +67,9 @@ export default function OffersPage() {
                 href="https://wa.me/917588484882?text=Hello,%20I%20am%20interested%20in%20the%20Year%20Ending%20English%20course%20offer."
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-3 rounded-full bg-green-600 px-7 py-4 text-lg font-bold text-white transition hover:bg-green-700 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-green-800"
+                className="inline-flex items-center justify-center gap-3 rounded-full bg-gradient-to-r from-amber-400 via-yellow-300 to-amber-500 px-7 py-4 text-lg font-bold text-neutral-950 shadow-lg shadow-amber-500/20 transition hover:brightness-110 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-amber-300"
               >
-                <FaWhatsapp className="text-2xl" />
+                <FaWhatsapp className="text-2xl text-neutral-950" />
                 Enquire on WhatsApp
               </a>
             </div>
