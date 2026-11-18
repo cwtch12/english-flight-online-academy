@@ -11,10 +11,10 @@ export default function Home() {
       <div className="bg-slate-950 px-4 py-4 text-center">
         <div className="inline-block animate-pulse rounded-2xl border border-amber-300 bg-gradient-to-r from-yellow-300 via-amber-200 to-yellow-300 px-6 py-3 text-slate-900 shadow-lg">
           <p className="text-sm font-black uppercase tracking-[0.16em] sm:text-base">
-            14-Day Money-Back Guarantee
+            14-Day Money-Back Guarantee for Courses
           </p>
           <p className="mt-1 text-sm font-semibold sm:text-base">
-            Enrol with confidence. Your learning journey, your peace of mind.
+            Applies to course enrolments. Enrol with confidence and peace of mind.
           </p>
         </div>
       </div>
