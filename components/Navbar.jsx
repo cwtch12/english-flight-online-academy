@@ -18,7 +18,7 @@ export default function Navbar() {
     }`;
 
   return (
-    <nav className="sticky top-0 z-50 border-b border-sky-100 bg-[#f5fbff]/95 shadow-[0_4px_20px_rgba(15,91,141,0.08)] backdrop-blur-md">
+    <nav className="sticky top-0 z-50 border-b border-sky-200 bg-[#e0f2fe]/95 shadow-[0_4px_20px_rgba(15,91,141,0.08)] backdrop-blur-md">
       <div className="max-w-7xl mx-auto px-4 lg:px-6">
         {/* Top Row */}
         <div className="h-auto py-3 flex flex-wrap items-center justify-between gap-4">
@@ -119,7 +119,7 @@ export default function Navbar() {
 
         {/* Mobile Menu */}
         {menuOpen && (
-          <div className="flex flex-col gap-3 border-t border-sky-100 py-4 lg:hidden">
+          <div className="flex flex-col gap-3 border-t border-sky-200 py-4 lg:hidden">
             <Link
               href="/"
               className={`${linkClass("/")} rounded-md px-2 py-2 hover:bg-[#102f4b]/5`}
