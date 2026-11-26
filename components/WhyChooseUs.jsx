@@ -1,7 +1,7 @@
 export default function WhyChooseUs() {
   const features = [
     { icon: "✈️", text: "Less Grammar, Less Theory, No Memorising Rules – More Practical Learning!" },
-    { icon: "🤝", text: "No Judgement – Speak freely without feeling judged." },
+    { icon: "👔", text: "Special Course for Working Professionals" },
     {
       icon: "🎓",
       text: "Certified Trainer",

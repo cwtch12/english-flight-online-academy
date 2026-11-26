@@ -33,6 +33,9 @@ export default function OffersPage() {
               Take the next step in your English journey with a course that
               matches your goals.
             </p>
+            <p className="mt-4 text-base font-bold text-amber-300 sm:text-lg">
+              Special Course for Working Professionals
+            </p>
           </div>
 
           <div className="px-6 py-9 sm:px-10 sm:py-12">
