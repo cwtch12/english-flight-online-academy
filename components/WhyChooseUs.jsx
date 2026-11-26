@@ -2,7 +2,7 @@ export default function WhyChooseUs() {
   const features = [
     { icon: "✈️", text: "Less Grammar, Less Theory, No Memorising Rules – More Practical Learning!" },
     { icon: "🤝", text: "No Judgement – Speak freely without feeling judged." },
-    { icon: "📷", text: "Camera Optional – Your comfort matters." },
+    { icon: "🎓", text: "Certified Trainer." },
     { icon: "🎁", text: "Free Online 1-on-1 Demo before enrolment." },
     { icon: "👥", text: "Individual & Group Classes (subject to availability)." },
     { icon: "🌍", text: "Learn Online from Anywhere." },
