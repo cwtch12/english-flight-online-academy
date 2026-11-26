@@ -60,7 +60,7 @@ export default function OffersPage() {
                   <p className="mt-4 font-semibold text-stone-200">
                     1-on-1 classes
                   </p>
-                  <p className="mt-1 text-sm text-stone-400">
+                  <p className="mt-1 text-sm text-white">
                     Max group of 3 students (subject to availability)
                   </p>
                 </article>
