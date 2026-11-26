@@ -1,14 +1,13 @@
 "use client";
 
 import Link from "next/link";
-import Hero from "../components/Hero";
 import WhyChooseUs from "../components/WhyChooseUs";
 import WhoCanJoin from "../components/WhoCanJoin";
 
 export default function Home() {
   return (
     <>
-      <Hero />
+      <WhyChooseUs />
       <section className="bg-[#f5fbff] px-6 py-12 text-center">
         <div className="mx-auto max-w-4xl">
           <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#0f5b8d]">
@@ -29,7 +28,6 @@ export default function Home() {
           </Link>
         </div>
       </section>
-      <WhyChooseUs />
       <WhoCanJoin />
 
       <section className="bg-white px-6 py-16 text-center">
