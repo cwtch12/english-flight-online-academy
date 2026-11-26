@@ -69,7 +69,7 @@ export default function WhyChooseUs() {
         },
         {
           icon: "🛡️",
-          title: "14-Day Money-Back Guarantee",
+          title: "7-Day Money-Back Guarantee",
           description: "On courses.",
         },
       ],

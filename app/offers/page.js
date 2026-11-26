@@ -58,7 +58,7 @@ export default function OffersPage() {
                   </div>
                   <p className="mt-2 font-semibold text-stone-400">per month</p>
                   <p className="mt-3 text-sm font-semibold text-amber-200">
-                    (14-day money-back guarantee)
+                    (7-day money-back guarantee)
                   </p>
                   <p className="mt-4 font-semibold text-stone-200">
                     1-on-1 classes
