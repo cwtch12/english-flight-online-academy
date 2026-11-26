@@ -2,7 +2,11 @@ export default function WhyChooseUs() {
   const features = [
     { icon: "✈️", text: "Less Grammar, Less Theory, No Memorising Rules – More Practical Learning!" },
     { icon: "🤝", text: "No Judgement – Speak freely without feeling judged." },
-    { icon: "🎓", text: "Certified Trainer." },
+    {
+      icon: "🎓",
+      text: "Certified Trainer",
+      details: ["TESOL", "Soft Skills", "Public Speaking and Facilitator"],
+    },
     { icon: "🎁", text: "Free Online 1-on-1 Demo before enrolment." },
     { icon: "👥", text: "Individual & Group Classes (subject to availability)." },
     { icon: "🌍", text: "Learn Online from Anywhere." },
@@ -28,9 +32,18 @@ export default function WhyChooseUs() {
               <span aria-hidden="true" className="shrink-0 text-2xl">
                 {feature.icon}
               </span>
-              <p className="text-base font-semibold leading-7 text-white">
-                {feature.text}
-              </p>
+              <div>
+                <p className="text-base font-semibold leading-7 text-white">
+                  {feature.text}
+                </p>
+                {feature.details && (
+                  <ul className="mt-2 list-disc space-y-1 pl-5 text-sm leading-6 text-sky-100">
+                    {feature.details.map((detail) => (
+                      <li key={detail}>{detail}</li>
+                    ))}
+                  </ul>
+                )}
+              </div>
             </div>
           ))}
         </div>
