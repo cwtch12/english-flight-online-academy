@@ -1,11 +1,8 @@
 import {
   FaBookOpen,
-  FaChartLine,
-  FaStar,
   FaBriefcase,
   FaComments,
   FaMicrophone,
-  FaUserTie,
   FaUsers,
   FaAward,
 } from "react-icons/fa";
@@ -13,59 +10,35 @@ import {
 export default function Courses() {
   const courses = [
     {
-      title: "Basic English",
-      slug: "basic-english",
+      title: "Spoken English for Children & Students",
       icon: <FaBookOpen className="text-5xl text-teal-700" />,
-      desc: "Perfect for beginners who want to start speaking English confidently.",
+      desc: "Build confidence in everyday conversations, vocabulary and clear speaking.",
     },
     {
-      title: "Intermediate English",
-      slug: "intermediate-english",
-      icon: <FaChartLine className="text-5xl text-teal-700" />,
-      desc: "Improve fluency, vocabulary and everyday communication.",
-    },
-    {
-      title: "Advanced English",
-      slug: "advanced-english",
-      icon: <FaStar className="text-5xl text-teal-700" />,
-      desc: "Develop advanced speaking, pronunciation and confidence.",
-    },
-    {
-      title: "Business / Corporate English",
-      slug: "business-corporate-english",
+      title: "Spoken English for Working Professionals",
       icon: <FaBriefcase className="text-5xl text-teal-700" />,
-      desc: "Professional English for meetings, emails and workplace communication.",
+      desc: "Improve workplace communication, fluency and confidence for professional settings.",
     },
     {
-      title: "Communication Skills",
-      slug: "communication-skills",
-      icon: <FaComments className="text-5xl text-teal-700" />,
-      desc: "Build strong verbal and interpersonal communication skills.",
+      title: "Public Speaking & Presentation Skills",
+      icon: <FaMicrophone className="text-5xl text-teal-700" />,
+      desc: "Plan and deliver engaging presentations with confidence.",
     },
     {
       title: "US Accent Training",
-      slug: "us-accent-training",
       icon: <FaMicrophone className="text-5xl text-amber-500" />,
-      desc: "Master clear American pronunciation, intonation and rhythm for natural-sounding speech.",
+      desc: "Practice American pronunciation, intonation and rhythm for clearer speech.",
       featured: true,
     },
     {
-      title: "Public Speaking",
-      slug: "public-speaking",
-      icon: <FaMicrophone className="text-5xl text-teal-700" />,
-      desc: "Overcome stage fear and deliver powerful speeches with confidence.",
+      title: "Business/Corporate English",
+      icon: <FaComments className="text-5xl text-teal-700" />,
+      desc: "Develop English for meetings, emails and professional communication.",
     },
     {
-      title: "Interview Skills",
-      slug: "interview-skills",
-      icon: <FaUserTie className="text-5xl text-teal-700" />,
-      desc: "Prepare for HR and professional interviews with confidence.",
-    },
-    {
-      title: "Soft Skills",
-      slug: "soft-skills",
+      title: "Soft Skills Training",
       icon: <FaUsers className="text-5xl text-teal-700" />,
-      desc: "Develop confidence, personality and workplace etiquette.",
+      desc: "Strengthen interpersonal skills, confidence and workplace etiquette.",
     },
   ];
 
@@ -91,7 +64,7 @@ export default function Courses() {
       {/* Course Cards */}
       <section className="max-w-7xl mx-auto px-6 py-20">
 
-        <div className="grid md:grid-cols-4 gap-8">
+        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
 
           {courses.map((course, index) => (
             <div
