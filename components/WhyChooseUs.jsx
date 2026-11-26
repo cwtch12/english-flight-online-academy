@@ -12,22 +12,23 @@ export default function WhyChooseUs() {
   ];
 
   return (
-    <section className="bg-[#f5fbff] py-16 md:py-20">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <h2 className="mb-12 text-center text-3xl font-bold text-[#102f4b] md:text-4xl">
+    <section className="bg-gradient-to-br from-[#071a33] via-[#0f3557] to-[#164f73] py-16 md:py-20">
+      <div className="mx-auto max-w-6xl px-4 sm:px-6">
+        <h2 className="text-center text-3xl font-bold text-white md:text-4xl">
           💡 Why Choose English Flight?
         </h2>
+        <div className="mx-auto mb-12 mt-6 h-1 w-24 rounded-full bg-[#f6c343]" />
 
         <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3 md:gap-6">
           {features.map((feature) => (
             <div
               key={feature.text}
-              className="flex items-start gap-4 rounded-2xl border border-[#b9e2f4] bg-white p-6 shadow-[0_12px_30px_rgba(15,91,141,0.08)] transition duration-300 hover:-translate-y-1 hover:shadow-[0_18px_40px_rgba(15,91,141,0.16)]"
+              className="flex items-start gap-4 rounded-2xl border border-white/15 bg-[#071a33]/35 p-6 shadow-lg transition duration-300 hover:-translate-y-1 hover:border-[#f6c343]/60 hover:bg-[#071a33]/55"
             >
               <span aria-hidden="true" className="shrink-0 text-2xl">
                 {feature.icon}
               </span>
-              <p className="text-base font-semibold leading-7 text-[#102f4b]">
+              <p className="text-base font-semibold leading-7 text-white">
                 {feature.text}
               </p>
             </div>
