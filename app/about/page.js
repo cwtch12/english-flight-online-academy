@@ -47,9 +47,10 @@ export default function About() {
 
             <p className="text-black font-bold  leading-8 mb-5">
               Hi, my name is Nasir. I am the founder of English Flight, a
-              TESOL-certified English trainer, and a Certified Soft
-              Skills Life Coach. We believe English should be spoken, practiced
-              and enjoyed—not just memorized.
+              TESOL-certified English trainer, a Certified Soft Skills Life
+              Coach, and a Certified Public Speaking Trainer and Facilitator.
+              We believe English should be spoken, practiced and enjoyed—not
+              just memorized.
             </p>
 
             <p className="text-black font-bold leading-8">
@@ -76,6 +77,7 @@ export default function About() {
                 "Live Online Option Available",
                 "TESOL-Certified English Trainer",
                 "Certified Soft Skills Life Coach",
+                "Certified Public Speaking Trainer and Facilitator",
                 "Practical Speaking Practice",
                 "Personalized Learning Guidance",
                 "Join Online from Anywhere",
