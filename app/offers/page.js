@@ -57,6 +57,12 @@ export default function OffersPage() {
                   <p className="mt-3 text-sm font-semibold text-amber-200">
                     (14-day money-back guarantee)
                   </p>
+                  <p className="mt-4 font-semibold text-stone-200">
+                    1-on-1 classes
+                  </p>
+                  <p className="mt-1 text-sm text-stone-400">
+                    Max group of 3 students (subject to availability)
+                  </p>
                 </article>
               ))}
             </div>
