@@ -32,7 +32,7 @@ export default function Navbar() {
               alt="English Flight"
               width={303}
               height={320}
-              className="h-16 w-auto lg:h-20"
+              className="h-16 w-16 shrink-0 rounded-full object-cover lg:h-20 lg:w-20"
               priority
             />
             <span className="max-w-48 text-sm font-semibold leading-5 text-[#102f4b] sm:max-w-none sm:text-base">
