@@ -1,54 +1,76 @@
 export default function WhyChooseUs() {
   const groups = [
     {
-      title: "1. Practical Learning & Guidance",
+      title: "1. Comfort & confidence",
       features: [
         {
           icon: "✈️",
-          text: "Less Grammar, Less Theory, No Memorising Rules – More Practical Learning!",
+          title: "Practical Learning",
+          description:
+            "Less Grammar, Less Theory, No Memorising Rules – More Practical Learning!",
+        },
+        {
+          icon: "🤝",
+          title: "No Judgement",
+          description: "Speak freely without feeling judged.",
+        },
+        {
+          icon: "📷",
+          title: "Camera Optional",
+          description: "Your comfort matters.",
+        },
+      ],
+    },
+    {
+      title: "2. Trust & opportunity",
+      features: [
+        {
+          icon: "🎁",
+          title: "Free Online 1-on-1 Demo",
+          description: "Before enrolment.",
         },
         {
           icon: "🎓",
-          text: "Certified Trainer",
-          details: ["TESOL", "Soft Skills", "Public Speaking and Facilitator"],
+          title: "Certified Trainer",
+          description: "TESOL, Soft Skills, Public Speaking and Facilitator",
         },
         {
-          icon: "🎁",
-          text: "Free Online 1-on-1 Demo before enrolment.",
+          icon: "👔",
+          title: "Special Course",
+          description: "For working professionals.",
         },
       ],
     },
     {
-      title: "2. Learning That Fits You",
+      title: "3. Flexibility & value",
       features: [
         {
-          icon: "👔",
-          text: "Special Course for Working Professionals",
-        },
-        {
           icon: "👥",
-          text: "Individual & Group Classes (subject to availability).",
+          title: "Individual & Group Classes",
+          description: "Subject to availability.",
         },
         {
           icon: "🌍",
-          text: "Learn Online from Anywhere.",
+          title: "Learn Online from Anywhere",
+        },
+        {
+          icon: "💳",
+          title: "Flexible Instalments",
         },
       ],
     },
     {
-      title: "3. Flexibility & Ongoing Support",
+      title: "4. Long-term assurance",
       features: [
         {
-          icon: "💳",
-          text: "Flexible Instalment Payments.",
-        },
-        {
           icon: "🔄",
-          text: "Membership Option – Continued support after course completion.",
+          title: "Membership Option",
+          description: "Continued support after course completion.",
         },
         {
           icon: "🛡️",
-          text: "14-Day Money-Back Guarantee on Courses.",
+          title: "14-Day Money-Back Guarantee",
+          description: "On courses.",
         },
       ],
     },
@@ -75,13 +97,13 @@ export default function WhyChooseUs() {
                   : ""
               }
             >
-              <h3 className="mb-6 text-sm font-bold uppercase tracking-[0.12em] text-[#f6c343]">
+              <h3 className="mb-6 text-sm font-bold tracking-[0.08em] text-[#f6c343]">
                 {group.title}
               </h3>
               <div className="grid grid-cols-1 gap-x-6 gap-y-7 sm:grid-cols-2 lg:grid-cols-3">
                 {group.features.map((feature) => (
                   <div
-                    key={feature.text}
+                    key={feature.title}
                     className="flex items-start gap-3"
                   >
                     <span aria-hidden="true" className="shrink-0 text-2xl">
@@ -89,11 +111,11 @@ export default function WhyChooseUs() {
                     </span>
                     <div>
                       <p className="text-sm font-semibold leading-6 text-white sm:text-base">
-                        {feature.text}
+                        {feature.title}
                       </p>
-                      {feature.details && (
+                      {feature.description && (
                         <p className="mt-1 text-xs leading-5 text-sky-100/75">
-                          {feature.details.join(", ")}
+                          {feature.description}
                         </p>
                       )}
                     </div>
