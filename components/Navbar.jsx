@@ -13,12 +13,12 @@ export default function Navbar() {
   const linkClass = (path) =>
     `relative font-semibold transition-all duration-200 ${
       pathname === path
-        ? "text-blue-600"
-        : "text-gray-800 hover:text-blue-600"
+        ? "text-[#f6c343]"
+        : "text-white/90 hover:text-[#f6c343]"
     }`;
 
   return (
-    <nav className="sticky top-0 z-50 border-b border-sky-100 bg-white/95 shadow-[0_4px_20px_rgba(15,91,141,0.08)] backdrop-blur-md">
+    <nav className="sticky top-0 z-50 border-b border-white/10 bg-[#071a33]/95 shadow-lg backdrop-blur-md">
       <div className="max-w-7xl mx-auto px-4 lg:px-6">
         {/* Top Row */}
         <div className="h-auto py-3 flex flex-wrap items-center justify-between gap-4">
@@ -35,7 +35,7 @@ export default function Navbar() {
               className="h-16 w-auto lg:h-20"
               priority
             />
-            <span className="max-w-48 text-sm font-semibold leading-5 text-[#102f4b] sm:max-w-none sm:text-base">
+            <span className="max-w-48 text-sm font-semibold leading-5 text-white sm:max-w-none sm:text-base">
               Spoken English &amp; Communication Training
             </span>
           </Link>
@@ -46,7 +46,7 @@ export default function Navbar() {
               <span className="inline-block pb-1">
                 Home
                 {pathname === "/" && (
-                  <span className="mt-1 block h-0.5 rounded-full bg-blue-600"></span>
+                  <span className="mt-1 block h-0.5 rounded-full bg-[#f6c343]"></span>
                 )}
               </span>
             </Link>
@@ -55,7 +55,7 @@ export default function Navbar() {
               <span className="inline-block pb-1">
                 About
                 {pathname === "/about" && (
-                  <span className="mt-1 block h-0.5 rounded-full bg-blue-600"></span>
+                  <span className="mt-1 block h-0.5 rounded-full bg-[#f6c343]"></span>
                 )}
               </span>
             </Link>
@@ -64,7 +64,7 @@ export default function Navbar() {
               <span className="inline-block pb-1">
                 Courses
                 {pathname === "/courses" && (
-                  <span className="mt-1 block h-0.5 rounded-full bg-blue-600"></span>
+                  <span className="mt-1 block h-0.5 rounded-full bg-[#f6c343]"></span>
                 )}
               </span>
             </Link>
@@ -73,7 +73,7 @@ export default function Navbar() {
               <span className="inline-block pb-1">
                 Membership
                 {pathname === "/membership" && (
-                  <span className="mt-1 block h-0.5 rounded-full bg-blue-600"></span>
+                  <span className="mt-1 block h-0.5 rounded-full bg-[#f6c343]"></span>
                 )}
               </span>
             </Link>
@@ -82,7 +82,7 @@ export default function Navbar() {
               <span className="inline-block pb-1">
                 Offers
                 {pathname === "/offers" && (
-                  <span className="mt-1 block h-0.5 rounded-full bg-blue-600"></span>
+                  <span className="mt-1 block h-0.5 rounded-full bg-[#f6c343]"></span>
                 )}
               </span>
             </Link>
@@ -91,7 +91,7 @@ export default function Navbar() {
               <span className="inline-block pb-1">
                 Events
                 {pathname === "/events" && (
-                  <span className="mt-1 block h-0.5 rounded-full bg-blue-600"></span>
+                  <span className="mt-1 block h-0.5 rounded-full bg-[#f6c343]"></span>
                 )}
               </span>
             </Link>
@@ -100,7 +100,7 @@ export default function Navbar() {
               <span className="inline-block pb-1">
                 Contact
                 {pathname === "/contact" && (
-                  <span className="mt-1 block h-0.5 rounded-full bg-blue-600"></span>
+                  <span className="mt-1 block h-0.5 rounded-full bg-[#f6c343]"></span>
                 )}
               </span>
             </Link>
@@ -111,7 +111,7 @@ export default function Navbar() {
           <button
             onClick={() => setMenuOpen(!menuOpen)}
             aria-label="Toggle navigation menu"
-            className="rounded-md p-2 text-2xl text-gray-800 transition hover:bg-gray-100 lg:hidden"
+            className="rounded-md p-2 text-2xl text-white transition hover:bg-white/10 lg:hidden"
           >
             {menuOpen ? <FaTimes /> : <FaBars />}
           </button>
@@ -119,10 +119,10 @@ export default function Navbar() {
 
         {/* Mobile Menu */}
         {menuOpen && (
-          <div className="flex flex-col gap-3 border-t border-sky-100 py-4 lg:hidden">
+          <div className="flex flex-col gap-3 border-t border-white/10 py-4 lg:hidden">
             <Link
               href="/"
-              className={`${linkClass("/")} rounded-md px-2 py-2 hover:bg-gray-50`}
+              className={`${linkClass("/")} rounded-md px-2 py-2 hover:bg-white/10`}
               onClick={() => setMenuOpen(false)}
             >
               Home
@@ -130,7 +130,7 @@ export default function Navbar() {
 
             <Link
               href="/about"
-              className={`${linkClass("/about")} rounded-md px-2 py-2 hover:bg-gray-50`}
+              className={`${linkClass("/about")} rounded-md px-2 py-2 hover:bg-white/10`}
               onClick={() => setMenuOpen(false)}
             >
               About
@@ -138,7 +138,7 @@ export default function Navbar() {
 
             <Link
               href="/courses"
-              className={`${linkClass("/courses")} rounded-md px-2 py-2 hover:bg-gray-50`}
+              className={`${linkClass("/courses")} rounded-md px-2 py-2 hover:bg-white/10`}
               onClick={() => setMenuOpen(false)}
             >
               Courses
@@ -146,7 +146,7 @@ export default function Navbar() {
 
             <Link
               href="/membership"
-              className={`${linkClass("/membership")} rounded-md px-2 py-2 hover:bg-gray-50`}
+              className={`${linkClass("/membership")} rounded-md px-2 py-2 hover:bg-white/10`}
               onClick={() => setMenuOpen(false)}
             >
               Membership
@@ -154,7 +154,7 @@ export default function Navbar() {
 
             <Link
               href="/offers"
-              className={`${linkClass("/offers")} rounded-md px-2 py-2 hover:bg-gray-50`}
+              className={`${linkClass("/offers")} rounded-md px-2 py-2 hover:bg-white/10`}
               onClick={() => setMenuOpen(false)}
             >
               Offers
@@ -162,7 +162,7 @@ export default function Navbar() {
 
             <Link
               href="/events"
-              className={`${linkClass("/events")} rounded-md px-2 py-2 hover:bg-gray-50`}
+              className={`${linkClass("/events")} rounded-md px-2 py-2 hover:bg-white/10`}
               onClick={() => setMenuOpen(false)}
             >
               Events
@@ -170,7 +170,7 @@ export default function Navbar() {
 
             <Link
               href="/contact"
-              className={`${linkClass("/contact")} rounded-md px-2 py-2 hover:bg-gray-50`}
+              className={`${linkClass("/contact")} rounded-md px-2 py-2 hover:bg-white/10`}
               onClick={() => setMenuOpen(false)}
             >
               Contact
