@@ -16,15 +16,15 @@ export default function Courses() {
       desc: "1-on-1 only, with personal attention, progress tracking and guidance. Fees vary by course.",
     },
     {
-      title: "Spoken English for Children & Students",
-      icon: <FaBookOpen className="text-5xl text-amber-400" />,
-      desc: "Build confidence in everyday conversations, vocabulary and clear speaking.",
-    },
-    {
       title: "Spoken English for Working Professionals",
       icon: <FaBriefcase className="text-5xl text-amber-400" />,
       desc: "Improve workplace communication, fluency and confidence for professional settings.",
       featured: true,
+    },
+    {
+      title: "Spoken English for Children & Students",
+      icon: <FaBookOpen className="text-5xl text-amber-400" />,
+      desc: "Build confidence in everyday conversations, vocabulary and clear speaking.",
     },
     {
       title: "Public Speaking & Presentation Skills",
@@ -55,7 +55,7 @@ export default function Courses() {
       <section className="bg-black py-20 text-center">
 
         <h1 className="text-5xl font-bold text-amber-300">
-          Explore Our Classes
+          Our Courses
         </h1>
 
         <div className="w-24 h-1 bg-amber-400 mx-auto mt-5 rounded-full"></div>
