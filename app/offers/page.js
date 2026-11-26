@@ -3,13 +3,15 @@ import { FaWhatsapp } from "react-icons/fa";
 const courses = [
   {
     name: "Basic English",
-    price: "₹3,000",
+    originalPrice: "₹5,000",
+    price: "₹4,000",
     cardColor:
       "border-amber-500/40 bg-gradient-to-br from-zinc-800 via-neutral-900 to-stone-900",
   },
   {
     name: "Advanced English",
-    price: "₹6,000",
+    originalPrice: "₹10,000",
+    price: "₹8,000",
     cardColor:
       "border-amber-400/60 bg-gradient-to-br from-stone-800 via-neutral-900 to-zinc-900",
   },
@@ -35,7 +37,7 @@ export default function OffersPage() {
 
           <div className="px-6 py-9 sm:px-10 sm:py-12">
             <div className="grid gap-5 sm:grid-cols-2">
-              {courses.map(({ name, price, cardColor }) => (
+              {courses.map(({ name, originalPrice, price, cardColor }) => (
                 <article
                   key={name}
                   className={`rounded-2xl border p-6 text-center shadow-lg shadow-black/30 sm:p-8 ${cardColor}`}
@@ -43,9 +45,14 @@ export default function OffersPage() {
                   <h2 className="text-xl font-extrabold text-stone-100 sm:text-2xl">
                     {name}
                   </h2>
-                  <p className="mt-5 text-4xl font-black text-amber-300 sm:text-5xl">
-                    {price}
-                  </p>
+                  <div className="mt-5 flex items-center justify-center gap-3">
+                    <del className="text-xl font-bold text-stone-400 decoration-red-400 decoration-2 sm:text-2xl">
+                      {originalPrice}
+                    </del>
+                    <p className="text-4xl font-black text-amber-300 sm:text-5xl">
+                      {price}
+                    </p>
+                  </div>
                   <p className="mt-2 font-semibold text-stone-400">per month</p>
                   <p className="mt-3 text-sm font-semibold text-amber-200">
                     (14-day money-back guarantee)
