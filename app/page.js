@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import WhyChooseUs from "../components/WhyChooseUs";
 import WhoCanJoin from "../components/WhoCanJoin";
 
@@ -8,26 +7,6 @@ export default function Home() {
   return (
     <>
       <WhyChooseUs />
-      <section className="bg-[#f5fbff] px-6 py-12 text-center">
-        <div className="mx-auto max-w-4xl">
-          <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#0f5b8d]">
-            Spoken English & Communication Training
-          </p>
-          <h2 className="mt-3 text-3xl font-bold text-[#102f4b] sm:text-4xl">
-            Speak English with Confidence
-          </h2>
-          <p className="mx-auto mt-4 max-w-2xl text-lg leading-8 text-slate-600">
-            Build fluency, communication skills, and confidence through
-            practical English classes.
-          </p>
-          <Link
-            href="/courses"
-            className="mt-6 inline-flex rounded-full bg-[#0f5b8d] px-7 py-3 font-semibold text-white transition hover:bg-[#0b466d]"
-          >
-            Explore Classes
-          </Link>
-        </div>
-      </section>
       <WhoCanJoin />
 
       <section className="bg-white px-6 py-16 text-center">
