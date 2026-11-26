@@ -5,10 +5,16 @@ import {
   FaMicrophone,
   FaUsers,
   FaAward,
+  FaStar,
 } from "react-icons/fa";
 
 export default function Courses() {
   const courses = [
+    {
+      title: "Premium Course",
+      icon: <FaStar className="text-5xl text-amber-500" />,
+      desc: "1-on-1 only, with personal attention, progress tracking and guidance. Fees vary by course.",
+    },
     {
       title: "Spoken English for Children & Students",
       icon: <FaBookOpen className="text-5xl text-teal-700" />,
